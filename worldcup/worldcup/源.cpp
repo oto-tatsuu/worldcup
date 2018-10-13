@@ -4,10 +4,11 @@
 
 int main() 
 {
-	std::list<int>l;
+	List<int>l;
+	List<int>a;
 	for (int i = 0; i < 10; i++)
 		l.push_back(i);
-	int*p=l.begin().operator->();
-	std::cout << p<<"iiter"<<&*l.begin();
+	a = l;
+	List<int>b = a;
 	return 0;
 }

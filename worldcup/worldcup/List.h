@@ -52,6 +52,7 @@ public:
 	List_iter<T> begin();
 	List_iter<T> end();
 	void assign(List_iter<T> begin, List_iter<T> end);
+	void clear();
 	bool empty();
 	void push_back(T data);
 	void push_front(T data);
@@ -60,7 +61,6 @@ public:
 	void remove(T data);
 	void insert(int index,T data);
 	int Size();
-	void clear();
 	void Show();
 
 	
@@ -378,7 +378,7 @@ inline List<T>::List()
 }
 
 template<class T>
-inline List<T>::List(List<T>& src):List()
+inline List<T>::List(List<T>& src)
 {
 	first = new ListNode<T>();
 	last = first;
@@ -398,7 +398,8 @@ template<class T>
 inline List<T>& List<T>::operator=(List & rsh)
 {
 	// TODO: 在此处插入 return 语句
-	assign(rsh.begin(), rsh.end());
+	//assign(rsh.begin(), rsh.end());
+	return *this;
 }
 
 template<class T>
@@ -420,5 +421,34 @@ inline void List<T>::assign(List_iter<T> begin, List_iter<T> end)
 	for (List_iter<T> iter = begin; iter != end; iter++) 
 	{
 		push_back(*iter);
+		size++;
 	}
+}
+
+template<class T>
+inline void List<T>::clear()
+{
+	ListNode<T>*p;
+	while (first->next) 
+	{
+		p = first->next;
+		first->next = p->next;
+		delete p;
+		p = nullptr;
+	}
+	size = 0;
+}
+
+template<class T>
+inline bool List<T>::empty()
+{
+	return size==0;
+}
+
+template<class T>
+inline void List<T>::push_back(T data)
+{
+	last->next = new ListNode<T>(data);
+	last = last->next;
+	size++;
 }

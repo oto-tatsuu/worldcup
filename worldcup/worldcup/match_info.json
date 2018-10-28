@@ -1,0 +1,386 @@
+[
+   {
+      "away_team_country" : "Saudi Arabia",
+      "datetime" : "2018-06-14T15:00:00Z",
+      "home_team_country" : "Russia",
+      "location" : "Luzhniki Stadium"
+   },
+   {
+      "away_team_country" : "Uruguay",
+      "datetime" : "2018-06-15T12:00:00Z",
+      "home_team_country" : "Egypt",
+      "location" : "Ekaterinburg Arena"
+   },
+   {
+      "away_team_country" : "Iran",
+      "datetime" : "2018-06-15T15:00:00Z",
+      "home_team_country" : "Morocco",
+      "location" : "Saint Petersburg Stadium"
+   },
+   {
+      "away_team_country" : "Spain",
+      "datetime" : "2018-06-15T18:00:00Z",
+      "home_team_country" : "Portugal",
+      "location" : "Fisht Stadium"
+   },
+   {
+      "away_team_country" : "Australia",
+      "datetime" : "2018-06-16T10:00:00Z",
+      "home_team_country" : "France",
+      "location" : "Kazan Arena"
+   },
+   {
+      "away_team_country" : "Iceland",
+      "datetime" : "2018-06-16T13:00:00Z",
+      "home_team_country" : "Argentina",
+      "location" : "Spartak Stadium"
+   },
+   {
+      "away_team_country" : "Denmark",
+      "datetime" : "2018-06-16T16:00:00Z",
+      "home_team_country" : "Peru",
+      "location" : "Mordovia Arena"
+   },
+   {
+      "away_team_country" : "Nigeria",
+      "datetime" : "2018-06-16T19:00:00Z",
+      "home_team_country" : "Croatia",
+      "location" : "Kaliningrad Stadium"
+   },
+   {
+      "away_team_country" : "Serbia",
+      "datetime" : "2018-06-17T12:00:00Z",
+      "home_team_country" : "Costa Rica",
+      "location" : "Samara Arena"
+   },
+   {
+      "away_team_country" : "Mexico",
+      "datetime" : "2018-06-17T15:00:00Z",
+      "home_team_country" : "Germany",
+      "location" : "Luzhniki Stadium"
+   },
+   {
+      "away_team_country" : "Switzerland",
+      "datetime" : "2018-06-17T18:00:00Z",
+      "home_team_country" : "Brazil",
+      "location" : "Rostov Arena"
+   },
+   {
+      "away_team_country" : "Korea Republic",
+      "datetime" : "2018-06-18T12:00:00Z",
+      "home_team_country" : "Sweden",
+      "location" : "Nizhny Novgorod Stadium"
+   },
+   {
+      "away_team_country" : "Panama",
+      "datetime" : "2018-06-18T15:00:00Z",
+      "home_team_country" : "Belgium",
+      "location" : "Fisht Stadium"
+   },
+   {
+      "away_team_country" : "England",
+      "datetime" : "2018-06-18T18:00:00Z",
+      "home_team_country" : "Tunisia",
+      "location" : "Volgograd Arena"
+   },
+   {
+      "away_team_country" : "Japan",
+      "datetime" : "2018-06-19T12:00:00Z",
+      "home_team_country" : "Colombia",
+      "location" : "Mordovia Arena"
+   },
+   {
+      "away_team_country" : "Senegal",
+      "datetime" : "2018-06-19T15:00:00Z",
+      "home_team_country" : "Poland",
+      "location" : "Spartak Stadium"
+   },
+   {
+      "away_team_country" : "Egypt",
+      "datetime" : "2018-06-19T18:00:00Z",
+      "home_team_country" : "Russia",
+      "location" : "Saint Petersburg Stadium"
+   },
+   {
+      "away_team_country" : "Morocco",
+      "datetime" : "2018-06-20T12:00:00Z",
+      "home_team_country" : "Portugal",
+      "location" : "Luzhniki Stadium"
+   },
+   {
+      "away_team_country" : "Saudi Arabia",
+      "datetime" : "2018-06-20T15:00:00Z",
+      "home_team_country" : "Uruguay",
+      "location" : "Rostov Arena"
+   },
+   {
+      "away_team_country" : "Spain",
+      "datetime" : "2018-06-20T18:00:00Z",
+      "home_team_country" : "Iran",
+      "location" : "Kazan Arena"
+   },
+   {
+      "away_team_country" : "Australia",
+      "datetime" : "2018-06-21T12:00:00Z",
+      "home_team_country" : "Denmark",
+      "location" : "Samara Arena"
+   },
+   {
+      "away_team_country" : "Peru",
+      "datetime" : "2018-06-21T15:00:00Z",
+      "home_team_country" : "France",
+      "location" : "Ekaterinburg Arena"
+   },
+   {
+      "away_team_country" : "Croatia",
+      "datetime" : "2018-06-21T18:00:00Z",
+      "home_team_country" : "Argentina",
+      "location" : "Nizhny Novgorod Stadium"
+   },
+   {
+      "away_team_country" : "Costa Rica",
+      "datetime" : "2018-06-22T12:00:00Z",
+      "home_team_country" : "Brazil",
+      "location" : "Saint Petersburg Stadium"
+   },
+   {
+      "away_team_country" : "Iceland",
+      "datetime" : "2018-06-22T15:00:00Z",
+      "home_team_country" : "Nigeria",
+      "location" : "Volgograd Arena"
+   },
+   {
+      "away_team_country" : "Switzerland",
+      "datetime" : "2018-06-22T18:00:00Z",
+      "home_team_country" : "Serbia",
+      "location" : "Kaliningrad Stadium"
+   },
+   {
+      "away_team_country" : "Tunisia",
+      "datetime" : "2018-06-23T12:00:00Z",
+      "home_team_country" : "Belgium",
+      "location" : "Spartak Stadium"
+   },
+   {
+      "away_team_country" : "Mexico",
+      "datetime" : "2018-06-23T15:00:00Z",
+      "home_team_country" : "Korea Republic",
+      "location" : "Rostov Arena"
+   },
+   {
+      "away_team_country" : "Sweden",
+      "datetime" : "2018-06-23T18:00:00Z",
+      "home_team_country" : "Germany",
+      "location" : "Fisht Stadium"
+   },
+   {
+      "away_team_country" : "Panama",
+      "datetime" : "2018-06-24T12:00:00Z",
+      "home_team_country" : "England",
+      "location" : "Nizhny Novgorod Stadium"
+   },
+   {
+      "away_team_country" : "Senegal",
+      "datetime" : "2018-06-24T15:00:00Z",
+      "home_team_country" : "Japan",
+      "location" : "Ekaterinburg Arena"
+   },
+   {
+      "away_team_country" : "Colombia",
+      "datetime" : "2018-06-24T18:00:00Z",
+      "home_team_country" : "Poland",
+      "location" : "Kazan Arena"
+   },
+   {
+      "away_team_country" : "Russia",
+      "datetime" : "2018-06-25T14:00:00Z",
+      "home_team_country" : "Uruguay",
+      "location" : "Samara Arena"
+   },
+   {
+      "away_team_country" : "Egypt",
+      "datetime" : "2018-06-25T14:00:00Z",
+      "home_team_country" : "Saudi Arabia",
+      "location" : "Volgograd Arena"
+   },
+   {
+      "away_team_country" : "Morocco",
+      "datetime" : "2018-06-25T18:00:00Z",
+      "home_team_country" : "Spain",
+      "location" : "Kaliningrad Stadium"
+   },
+   {
+      "away_team_country" : "Portugal",
+      "datetime" : "2018-06-25T18:00:00Z",
+      "home_team_country" : "Iran",
+      "location" : "Mordovia Arena"
+   },
+   {
+      "away_team_country" : "France",
+      "datetime" : "2018-06-26T14:00:00Z",
+      "home_team_country" : "Denmark",
+      "location" : "Luzhniki Stadium"
+   },
+   {
+      "away_team_country" : "Peru",
+      "datetime" : "2018-06-26T14:00:00Z",
+      "home_team_country" : "Australia",
+      "location" : "Fisht Stadium"
+   },
+   {
+      "away_team_country" : "Croatia",
+      "datetime" : "2018-06-26T18:00:00Z",
+      "home_team_country" : "Iceland",
+      "location" : "Rostov Arena"
+   },
+   {
+      "away_team_country" : "Argentina",
+      "datetime" : "2018-06-26T18:00:00Z",
+      "home_team_country" : "Nigeria",
+      "location" : "Saint Petersburg Stadium"
+   },
+   {
+      "away_team_country" : "Germany",
+      "datetime" : "2018-06-27T14:00:00Z",
+      "home_team_country" : "Korea Republic",
+      "location" : "Kazan Arena"
+   },
+   {
+      "away_team_country" : "Sweden",
+      "datetime" : "2018-06-27T14:00:00Z",
+      "home_team_country" : "Mexico",
+      "location" : "Ekaterinburg Arena"
+   },
+   {
+      "away_team_country" : "Costa Rica",
+      "datetime" : "2018-06-27T18:00:00Z",
+      "home_team_country" : "Switzerland",
+      "location" : "Nizhny Novgorod Stadium"
+   },
+   {
+      "away_team_country" : "Brazil",
+      "datetime" : "2018-06-27T18:00:00Z",
+      "home_team_country" : "Serbia",
+      "location" : "Spartak Stadium"
+   },
+   {
+      "away_team_country" : "Poland",
+      "datetime" : "2018-06-28T14:00:00Z",
+      "home_team_country" : "Japan",
+      "location" : "Volgograd Arena"
+   },
+   {
+      "away_team_country" : "Colombia",
+      "datetime" : "2018-06-28T14:00:00Z",
+      "home_team_country" : "Senegal",
+      "location" : "Samara Arena"
+   },
+   {
+      "away_team_country" : "Belgium",
+      "datetime" : "2018-06-28T18:00:00Z",
+      "home_team_country" : "England",
+      "location" : "Kaliningrad Stadium"
+   },
+   {
+      "away_team_country" : "Tunisia",
+      "datetime" : "2018-06-28T18:00:00Z",
+      "home_team_country" : "Panama",
+      "location" : "Mordovia Arena"
+   },
+   {
+      "away_team_country" : "Argentina",
+      "datetime" : "2018-06-30T14:00:00Z",
+      "home_team_country" : "France",
+      "location" : "Kazan Arena"
+   },
+   {
+      "away_team_country" : "Portugal",
+      "datetime" : "2018-06-30T18:00:00Z",
+      "home_team_country" : "Uruguay",
+      "location" : "Fisht Stadium"
+   },
+   {
+      "away_team_country" : "Russia",
+      "datetime" : "2018-07-01T14:00:00Z",
+      "home_team_country" : "Spain",
+      "location" : "Luzhniki Stadium"
+   },
+   {
+      "away_team_country" : "Denmark",
+      "datetime" : "2018-07-01T18:00:00Z",
+      "home_team_country" : "Croatia",
+      "location" : "Nizhny Novgorod Stadium"
+   },
+   {
+      "away_team_country" : "Mexico",
+      "datetime" : "2018-07-02T14:00:00Z",
+      "home_team_country" : "Brazil",
+      "location" : "Samara Arena"
+   },
+   {
+      "away_team_country" : "Japan",
+      "datetime" : "2018-07-02T18:00:00Z",
+      "home_team_country" : "Belgium",
+      "location" : "Rostov Arena"
+   },
+   {
+      "away_team_country" : "Switzerland",
+      "datetime" : "2018-07-03T14:00:00Z",
+      "home_team_country" : "Sweden",
+      "location" : "Saint Petersburg Stadium"
+   },
+   {
+      "away_team_country" : "England",
+      "datetime" : "2018-07-03T18:00:00Z",
+      "home_team_country" : "Colombia",
+      "location" : "Spartak Stadium"
+   },
+   {
+      "away_team_country" : "France",
+      "datetime" : "2018-07-06T14:00:00Z",
+      "home_team_country" : "Uruguay",
+      "location" : "Nizhny Novgorod Stadium"
+   },
+   {
+      "away_team_country" : "Belgium",
+      "datetime" : "2018-07-06T18:00:00Z",
+      "home_team_country" : "Brazil",
+      "location" : "Kazan Arena"
+   },
+   {
+      "away_team_country" : "England",
+      "datetime" : "2018-07-07T14:00:00Z",
+      "home_team_country" : "Sweden",
+      "location" : "Samara Arena"
+   },
+   {
+      "away_team_country" : "Croatia",
+      "datetime" : "2018-07-07T18:00:00Z",
+      "home_team_country" : "Russia",
+      "location" : "Fisht Stadium"
+   },
+   {
+      "away_team_country" : "Belgium",
+      "datetime" : "2018-07-10T18:00:00Z",
+      "home_team_country" : "France",
+      "location" : "Saint Petersburg Stadium"
+   },
+   {
+      "away_team_country" : "England",
+      "datetime" : "2018-07-11T18:00:00Z",
+      "home_team_country" : "Croatia",
+      "location" : "Luzhniki Stadium"
+   },
+   {
+      "away_team_country" : "England",
+      "datetime" : "2018-07-14T14:00:00Z",
+      "home_team_country" : "Belgium",
+      "location" : "Saint Petersburg Stadium"
+   },
+   {
+      "away_team_country" : "Croatia",
+      "datetime" : "2018-07-15T15:00:00Z",
+      "home_team_country" : "France",
+      "location" : "Luzhniki Stadium"
+   }
+]

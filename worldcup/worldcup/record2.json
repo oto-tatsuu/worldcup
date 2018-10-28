@@ -1,0 +1,2968 @@
+[
+   {
+      "away_team_events" : [
+         {
+            "id" : 39,
+            "player" : "TAISEER ALJASSAM",
+            "time" : 93,
+            "type_of_event" : "yellow-card"
+         }
+      ],
+      "home_team_events" : [
+         {
+            "id" : 7,
+            "player" : "Iury GAZINSKY",
+            "time" : 12,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 5,
+            "player" : "Denis CHERYSHEV",
+            "time" : 43,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 21,
+            "player" : "Artem DZYUBA",
+            "time" : 71,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 16,
+            "player" : "Aleksandr GOLOVIN",
+            "time" : 88,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 5,
+            "player" : "Denis CHERYSHEV",
+            "time" : 91,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 16,
+            "player" : "Aleksandr GOLOVIN",
+            "time" : 94,
+            "type_of_event" : "goal"
+         }
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 70,
+            "player" : "Jose GIMENEZ",
+            "time" : 89,
+            "type_of_event" : "goal"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 51,
+            "player" : "AHMED HEGAZY",
+            "time" : 96,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 50,
+            "player" : "SAM MORSY",
+            "time" : 94,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 167,
+            "player" : "Masoud SHOJAEI",
+            "time" : 10,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 178,
+            "player" : "Alireza JAHANBAKHSH",
+            "time" : 47,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 170,
+            "player" : "Karim ANSARIFARD",
+            "time" : 92,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 145,
+            "player" : "Karim EL AHMADI",
+            "time" : 34,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 157,
+            "player" : "Aziz BOUHADDOUZ",
+            "time" : 95,
+            "type_of_event" : "goal-own"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 119,
+            "player" : "Sergio BUSQUETS",
+            "time" : 17,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 133,
+            "player" : "Diego COSTA",
+            "time" : 24,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 133,
+            "player" : "Diego COSTA",
+            "time" : 55,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 118,
+            "player" : "NACHO",
+            "time" : 58,
+            "type_of_event" : "goal"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 98,
+            "player" : "CRISTIANO RONALDO",
+            "time" : 4,
+            "type_of_event" : "goal-penalty"
+         },
+         {
+            "id" : 107,
+            "player" : "BRUNO FERNANDES",
+            "time" : 28,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 98,
+            "player" : "CRISTIANO RONALDO",
+            "time" : 44,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 98,
+            "player" : "CRISTIANO RONALDO",
+            "time" : 88,
+            "type_of_event" : "goal"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 213,
+            "player" : "Mathew LECKIE",
+            "time" : 13,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 225,
+            "player" : "Joshua RISDON",
+            "time" : 57,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 221,
+            "player" : "Mile JEDINAK",
+            "time" : 62,
+            "type_of_event" : "goal-penalty"
+         },
+         {
+            "id" : 222,
+            "player" : "Aziz BEHICH",
+            "time" : 81,
+            "type_of_event" : "goal-own"
+         },
+         {
+            "id" : 222,
+            "player" : "Aziz BEHICH",
+            "time" : 87,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 190,
+            "player" : "Antoine GRIEZMANN",
+            "time" : 58,
+            "type_of_event" : "goal-penalty"
+         },
+         {
+            "id" : 195,
+            "player" : "Corentin TOLISSO",
+            "time" : 76,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 309,
+            "player" : "Alfred FINNBOGASON",
+            "time" : 23,
+            "type_of_event" : "goal"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 294,
+            "player" : "Sergio AGUERO",
+            "time" : 19,
+            "type_of_event" : "goal"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 272,
+            "player" : "Yussuf Yurary POULSEN",
+            "time" : 59,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 260,
+            "player" : "Thomas DELANEY",
+            "time" : 86,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 272,
+            "player" : "Yussuf Yurary POULSEN",
+            "time" : 93,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 242,
+            "player" : "Renato TAPIA",
+            "time" : 38,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 352,
+            "player" : "Oghenekaro ETEBO",
+            "time" : 32,
+            "type_of_event" : "goal-own"
+         },
+         {
+            "id" : 349,
+            "player" : "William EKONG",
+            "time" : 70,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 328,
+            "player" : "Ivan RAKITIC",
+            "time" : 30,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 331,
+            "player" : "Luka MODRIC",
+            "time" : 71,
+            "type_of_event" : "goal-penalty"
+         },
+         {
+            "id" : 332,
+            "player" : "Marcelo BROZOVIC",
+            "time" : 89,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 447,
+            "player" : "Aleksandar KOLAROV",
+            "time" : 56,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 442,
+            "player" : "Branislav IVANOVIC",
+            "time" : 59,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 444,
+            "player" : "Aleksandar PRIJOVIC",
+            "time" : 98,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 428,
+            "player" : "Francisco CALVO",
+            "time" : 22,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 433,
+            "player" : "David GUZMAN",
+            "time" : 56,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 504,
+            "player" : "Hirving  LOZANO",
+            "time" : 35,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 497,
+            "player" : "Hector MORENO",
+            "time" : 40,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 498,
+            "player" : "Hector HERRERA",
+            "time" : 90,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 472,
+            "player" : "Thomas MUELLER",
+            "time" : 83,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 464,
+            "player" : "Mats HUMMELS",
+            "time" : 84,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 392,
+            "player" : "Stephan LICHTSTEINER",
+            "time" : 31,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 404,
+            "player" : "Steven ZUBER",
+            "time" : 50,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 412,
+            "player" : "Fabian SCHAER",
+            "time" : 65,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 401,
+            "player" : "Valon BEHRAMI",
+            "time" : 68,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 378,
+            "player" : "PHILIPPE COUTINHO",
+            "time" : 20,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 372,
+            "player" : "CASEMIRO",
+            "time" : 47,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 537,
+            "player" : "KIM Shinwook",
+            "time" : 13,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 539,
+            "player" : "HWANG Heechan",
+            "time" : 55,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 522,
+            "player" : "Viktor CLAESSON",
+            "time" : 61,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 509,
+            "player" : "Andreas GRANQVIST",
+            "time" : 65,
+            "type_of_event" : "goal-penalty"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 589,
+            "player" : "Eric DAVIS",
+            "time" : 18,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 582,
+            "player" : "Edgar BARCENAS",
+            "time" : 47,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 585,
+            "player" : "Armando COOPER",
+            "time" : 49,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 576,
+            "player" : "Michael MURILLO",
+            "time" : 51,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 594,
+            "player" : "Anibal GODOY",
+            "time" : 57,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 566,
+            "player" : "Thomas MEUNIER",
+            "time" : 14,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 565,
+            "player" : "Dries MERTENS",
+            "time" : 47,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 556,
+            "player" : "Jan VERTONGHEN",
+            "time" : 59,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 560,
+            "player" : "Romelu LUKAKU",
+            "time" : 69,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 560,
+            "player" : "Romelu LUKAKU",
+            "time" : 75,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 558,
+            "player" : "Kevin DE BRUYNE",
+            "time" : 88,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 629,
+            "player" : "Harry KANE",
+            "time" : 11,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 622,
+            "player" : "Kyle WALKER",
+            "time" : 33,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 629,
+            "player" : "Harry KANE",
+            "time" : 91,
+            "type_of_event" : "goal"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 610,
+            "player" : "Ferjani SASSI",
+            "time" : 35,
+            "type_of_event" : "goal-penalty"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 722,
+            "player" : "Shinji KAGAWA",
+            "time" : 6,
+            "type_of_event" : "goal-penalty"
+         },
+         {
+            "id" : 727,
+            "player" : "Yuya OSAKO",
+            "time" : 73,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 713,
+            "player" : "Eiji KAWASHIMA",
+            "time" : 94,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 695,
+            "player" : "Carlos SANCHEZ",
+            "time" : 3,
+            "type_of_event" : "red-card"
+         },
+         {
+            "id" : 709,
+            "player" : "Juan QUINTERO",
+            "time" : 39,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 694,
+            "player" : "Wilmar BARRIOS",
+            "time" : 64,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 699,
+            "player" : "James RODRIGUEZ",
+            "time" : 86,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 672,
+            "player" : "Salif SANE",
+            "time" : 49,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 685,
+            "player" : "Mbaye NIANG",
+            "time" : 60,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 671,
+            "player" : "Idrissa Gana GUEYE",
+            "time" : 72,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 653,
+            "player" : "Grzegorz KRYCHOWIAK",
+            "time" : 12,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 647,
+            "player" : "Thiago CIONEK",
+            "time" : 37,
+            "type_of_event" : "goal-own"
+         },
+         {
+            "id" : 653,
+            "player" : "Grzegorz KRYCHOWIAK",
+            "time" : 86,
+            "type_of_event" : "goal"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 52,
+            "player" : "AHMED FATHI",
+            "time" : 47,
+            "type_of_event" : "goal-own"
+         },
+         {
+            "id" : 66,
+            "player" : "TREZEGUET",
+            "time" : 57,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 66,
+            "player" : "TREZEGUET",
+            "time" : 57,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 55,
+            "player" : "MOHAMED SALAH",
+            "time" : 73,
+            "type_of_event" : "goal-penalty"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 5,
+            "player" : "Denis CHERYSHEV",
+            "time" : 59,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 21,
+            "player" : "Artem DZYUBA",
+            "time" : 62,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 9,
+            "player" : "Fedor SMOLOV",
+            "time" : 84,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 142,
+            "player" : "Mehdi BENATIA",
+            "time" : 40,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 98,
+            "player" : "CRISTIANO RONALDO",
+            "time" : 4,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 114,
+            "player" : "ADRIEN SILVA",
+            "time" : 92,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [ null ],
+      "home_team_events" : [
+         {
+            "id" : 77,
+            "player" : "Luis SUAREZ",
+            "time" : 23,
+            "type_of_event" : "goal"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 133,
+            "player" : "Diego COSTA",
+            "time" : 54,
+            "type_of_event" : "goal"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 171,
+            "player" : "Vahid AMIRI",
+            "time" : 79,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 169,
+            "player" : "Omid EBRAHIMI",
+            "time" : 92,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 221,
+            "player" : "Mile JEDINAK",
+            "time" : 38,
+            "type_of_event" : "goal-penalty"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 262,
+            "player" : "Christian ERIKSEN",
+            "time" : 7,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 272,
+            "player" : "Yussuf Yurary POULSEN",
+            "time" : 37,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 275,
+            "player" : "Pione SISTO",
+            "time" : 84,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 238,
+            "player" : "Paolo GUERRERO",
+            "time" : 23,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 249,
+            "player" : "Edison FLORES",
+            "time" : 81,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 252,
+            "player" : "Pedro AQUINO",
+            "time" : 81,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 197,
+            "player" : "Blaise MATUIDI",
+            "time" : 16,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 193,
+            "player" : "Kylian MBAPPE",
+            "time" : 34,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 189,
+            "player" : "Paul POGBA",
+            "time" : 86,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 339,
+            "player" : "Ante REBIC",
+            "time" : 39,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 339,
+            "player" : "Ante REBIC",
+            "time" : 53,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 338,
+            "player" : "Mario MANDZUKIC",
+            "time" : 58,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 338,
+            "player" : "Mario MANDZUKIC",
+            "time" : 59,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 323,
+            "player" : "Sime VRSALJKO",
+            "time" : 67,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 331,
+            "player" : "Luka MODRIC",
+            "time" : 80,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 328,
+            "player" : "Ivan RAKITIC",
+            "time" : 91,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 332,
+            "player" : "Marcelo BROZOVIC",
+            "time" : 94,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 326,
+            "player" : "Vedran CORLUKA",
+            "time" : 94,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 277,
+            "player" : "Gabriel MERCADO",
+            "time" : 51,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 292,
+            "player" : "Nicolas OTAMENDI",
+            "time" : 85,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 283,
+            "player" : "Marcos ACUNA",
+            "time" : 87,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 415,
+            "player" : "Johnny ACOSTA",
+            "time" : 84,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 377,
+            "player" : "NEYMAR",
+            "time" : 81,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 378,
+            "player" : "PHILIPPE COUTINHO",
+            "time" : 81,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 378,
+            "player" : "PHILIPPE COUTINHO",
+            "time" : 91,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 377,
+            "player" : "NEYMAR",
+            "time" : 97,
+            "type_of_event" : "goal"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [ null ],
+      "home_team_events" : [
+         {
+            "id" : 346,
+            "player" : "Bryan IDOWU",
+            "time" : 44,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 351,
+            "player" : "Ahmed MUSA",
+            "time" : 49,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 351,
+            "player" : "Ahmed MUSA",
+            "time" : 75,
+            "type_of_event" : "goal"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 400,
+            "player" : "Granit XHAKA",
+            "time" : 52,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 413,
+            "player" : "Xherdan SHAQIRI",
+            "time" : 90,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 413,
+            "player" : "Xherdan SHAQIRI",
+            "time" : 92,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 445,
+            "player" : "Aleksandar MITROVIC",
+            "time" : 5,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 456,
+            "player" : "Sergej MILINKOVIC-SAVIC",
+            "time" : 34,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 440,
+            "player" : "Luka MILIVOJEVIC",
+            "time" : 39,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 457,
+            "player" : "Nemanja MATIC",
+            "time" : 47,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 445,
+            "player" : "Aleksandar MITROVIC",
+            "time" : 87,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 610,
+            "player" : "Ferjani SASSI",
+            "time" : 14,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 608,
+            "player" : "Dylan BRONN",
+            "time" : 18,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 607,
+            "player" : "Wahbi KHAZRI",
+            "time" : 93,
+            "type_of_event" : "goal"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 561,
+            "player" : "Eden HAZARD",
+            "time" : 6,
+            "type_of_event" : "goal-penalty"
+         },
+         {
+            "id" : 560,
+            "player" : "Romelu LUKAKU",
+            "time" : 16,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 560,
+            "player" : "Romelu LUKAKU",
+            "time" : 48,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 561,
+            "player" : "Eden HAZARD",
+            "time" : 51,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 572,
+            "player" : "Michy BATSHUAYI",
+            "time" : 90,
+            "type_of_event" : "goal"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 493,
+            "player" : "Carlos VELA",
+            "time" : 26,
+            "type_of_event" : "goal-penalty"
+         },
+         {
+            "id" : 496,
+            "player" : "Javier HERNANDEZ",
+            "time" : 66,
+            "type_of_event" : "goal"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 547,
+            "player" : "KIM Younggwon",
+            "time" : 58,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 530,
+            "player" : "LEE Yong",
+            "time" : 63,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 538,
+            "player" : "LEE Seungwoo",
+            "time" : 72,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 543,
+            "player" : "JUNG Wooyoung",
+            "time" : 80,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 535,
+            "player" : "SON Heungmin",
+            "time" : 93,
+            "type_of_event" : "goal"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 525,
+            "player" : "Ola TOIVONEN",
+            "time" : 32,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 513,
+            "player" : "Albin EKDAL",
+            "time" : 52,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 512,
+            "player" : "Sebastian LARSSON",
+            "time" : 97,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 470,
+            "player" : "Marco REUS",
+            "time" : 48,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 476,
+            "player" : "Jerome BOATENG",
+            "time" : 71,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 476,
+            "player" : "Jerome BOATENG",
+            "time" : 82,
+            "type_of_event" : "yellow-card-second"
+         },
+         {
+            "id" : 467,
+            "player" : "Toni KROOS",
+            "time" : 95,
+            "type_of_event" : "goal"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 585,
+            "player" : "Armando COOPER",
+            "time" : 10,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 578,
+            "player" : "Fidel ESCOBAR",
+            "time" : 44,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 578,
+            "player" : "Fidel ESCOBAR",
+            "time" : 45,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 576,
+            "player" : "Michael MURILLO",
+            "time" : 72,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 597,
+            "player" : "Felipe BALOY",
+            "time" : 78,
+            "type_of_event" : "goal"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 625,
+            "player" : "John STONES",
+            "time" : 8,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 629,
+            "player" : "Harry KANE",
+            "time" : 22,
+            "type_of_event" : "goal-penalty"
+         },
+         {
+            "id" : 641,
+            "player" : "Ruben LOFTUS-CHEEK",
+            "time" : 24,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 627,
+            "player" : "Jesse  LINGARD",
+            "time" : 36,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 625,
+            "player" : "John STONES",
+            "time" : 40,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 629,
+            "player" : "Harry KANE",
+            "time" : 46,
+            "type_of_event" : "goal-penalty"
+         },
+         {
+            "id" : 629,
+            "player" : "Harry KANE",
+            "time" : 62,
+            "type_of_event" : "goal"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 676,
+            "player" : "Sadio MANE",
+            "time" : 11,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 685,
+            "player" : "Mbaye NIANG",
+            "time" : 59,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 688,
+            "player" : "Moussa WAGUE",
+            "time" : 71,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 678,
+            "player" : "Youssouf SABALY",
+            "time" : 90,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 677,
+            "player" : "Cheikh NDOYE",
+            "time" : 91,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 726,
+            "player" : "Takashi INUI",
+            "time" : 34,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 726,
+            "player" : "Takashi INUI",
+            "time" : 68,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 716,
+            "player" : "Keisuke HONDA",
+            "time" : 78,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 729,
+            "player" : "Makoto HASEBE",
+            "time" : 94,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 702,
+            "player" : "Yerry MINA",
+            "time" : 40,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 698,
+            "player" : "Radamel FALCAO",
+            "time" : 70,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 700,
+            "player" : "Juan CUADRADO",
+            "time" : 75,
+            "type_of_event" : "goal"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 648,
+            "player" : "Jan BEDNAREK",
+            "time" : 61,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 649,
+            "player" : "Jacek GORALSKI",
+            "time" : 85,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 7,
+            "player" : "Iury GAZINSKY",
+            "time" : 9,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 5,
+            "player" : "Denis CHERYSHEV",
+            "time" : 23,
+            "type_of_event" : "goal-own"
+         },
+         {
+            "id" : 22,
+            "player" : "Igor SMOLNIKOV",
+            "time" : 27,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 22,
+            "player" : "Igor SMOLNIKOV",
+            "time" : 36,
+            "type_of_event" : "yellow-card-second"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 77,
+            "player" : "Luis SUAREZ",
+            "time" : 10,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 74,
+            "player" : "Rodrigo BENTANCUR",
+            "time" : 59,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 89,
+            "player" : "Edinson CAVANI",
+            "time" : 90,
+            "type_of_event" : "goal"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 55,
+            "player" : "MOHAMED SALAH",
+            "time" : 22,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 47,
+            "player" : "ALI GABR",
+            "time" : 50,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 52,
+            "player" : "AHMED FATHI",
+            "time" : 86,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 29,
+            "player" : "SALMAN ALFARAJ",
+            "time" : 51,
+            "type_of_event" : "goal-penalty"
+         },
+         {
+            "id" : 40,
+            "player" : "SALEM ALDAWSARI",
+            "time" : 95,
+            "type_of_event" : "goal"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 150,
+            "player" : "Khalid BOUTAIB",
+            "time" : 14,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 145,
+            "player" : "Karim EL AHMADI",
+            "time" : 21,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 145,
+            "player" : "Karim EL AHMADI",
+            "time" : 22,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 153,
+            "player" : "Noureddine AMRABAT",
+            "time" : 29,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 141,
+            "player" : "Manuel DA COSTA",
+            "time" : 31,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 151,
+            "player" : "Mbark BOUSSOUFA",
+            "time" : 31,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 156,
+            "player" : "Youssef EN NESYRI",
+            "time" : 81,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 149,
+            "player" : "Monir EL KAJOUI",
+            "time" : 88,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 149,
+            "player" : "Monir EL KAJOUI",
+            "time" : 89,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 139,
+            "player" : "Achraf HAKIMI",
+            "time" : 93,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 136,
+            "player" : "ISCO",
+            "time" : 19,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 131,
+            "player" : "Iago ASPAS",
+            "time" : 91,
+            "type_of_event" : "goal"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 96,
+            "player" : "RAPHAEL GUERREIRO",
+            "time" : 33,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 111,
+            "player" : "RICARDO QUARESMA",
+            "time" : 45,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 111,
+            "player" : "RICARDO QUARESMA",
+            "time" : 64,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 98,
+            "player" : "CRISTIANO RONALDO",
+            "time" : 83,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 163,
+            "player" : "Ehsan HAJI SAFI",
+            "time" : 52,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 180,
+            "player" : "Sardar AZMOUN",
+            "time" : 54,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 170,
+            "player" : "Karim ANSARIFARD",
+            "time" : 93,
+            "type_of_event" : "goal-penalty"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [ null ],
+      "home_team_events" : [
+         {
+            "id" : 265,
+            "player" : "Mathias  JORGENSEN",
+            "time" : 48,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 247,
+            "player" : "Andre CARRILLO",
+            "time" : 18,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 248,
+            "player" : "Yoshimar YOTUN",
+            "time" : 45,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 238,
+            "player" : "Paolo GUERRERO",
+            "time" : 50,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 236,
+            "player" : "Paolo HURTADO",
+            "time" : 79,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 221,
+            "player" : "Mile JEDINAK",
+            "time" : 10,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 223,
+            "player" : "Daniel ARZANI",
+            "time" : 60,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 229,
+            "player" : "Tom ROGIC",
+            "time" : 66,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 211,
+            "player" : "Mark MILLIGAN",
+            "time" : 88,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 341,
+            "player" : "Marko PJACA",
+            "time" : 14,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 340,
+            "player" : "Milan BADELJ",
+            "time" : 53,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 334,
+            "player" : "Tin JEDVAJ",
+            "time" : 83,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 325,
+            "player" : "Ivan PERISIC",
+            "time" : 90,
+            "type_of_event" : "goal"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 318,
+            "player" : "Emil HALLFREDSSON",
+            "time" : 59,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 309,
+            "player" : "Alfred FINNBOGASON",
+            "time" : 64,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 308,
+            "player" : "Gylfi SIGURDSSON",
+            "time" : 76,
+            "type_of_event" : "goal-penalty"
+         },
+         {
+            "id" : 300,
+            "player" : "Birkir SAEVARSSON",
+            "time" : 84,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 285,
+            "player" : "Lionel MESSI",
+            "time" : 14,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 289,
+            "player" : "Javier MASCHERANO",
+            "time" : 49,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 282,
+            "player" : "Ever BANEGA",
+            "time" : 64,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 291,
+            "player" : "Marcos ROJO",
+            "time" : 86,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 285,
+            "player" : "Lionel MESSI",
+            "time" : 94,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 350,
+            "player" : "Leon BALOGUN",
+            "time" : 32,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 355,
+            "player" : "Victor MOSES",
+            "time" : 51,
+            "type_of_event" : "goal-penalty"
+         },
+         {
+            "id" : 354,
+            "player" : "John Obi MIKEL",
+            "time" : 91,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [ null ],
+      "home_team_events" : [
+         {
+            "id" : 543,
+            "player" : "JUNG Wooyoung",
+            "time" : 9,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 545,
+            "player" : "LEE Jaesung",
+            "time" : 23,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 546,
+            "player" : "MOON Seonmin",
+            "time" : 48,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 535,
+            "player" : "SON Heungmin",
+            "time" : 65,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 547,
+            "player" : "KIM Younggwon",
+            "time" : 93,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 535,
+            "player" : "SON Heungmin",
+            "time" : 96,
+            "type_of_event" : "goal"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 512,
+            "player" : "Sebastian LARSSON",
+            "time" : 26,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 511,
+            "player" : "Ludwig AUGUSTINSSON",
+            "time" : 50,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 509,
+            "player" : "Andreas GRANQVIST",
+            "time" : 62,
+            "type_of_event" : "goal-penalty"
+         },
+         {
+            "id" : 507,
+            "player" : "Mikael LUSTIG",
+            "time" : 88,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 505,
+            "player" : "Jesus GALLARDO",
+            "time" : 1,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 497,
+            "player" : "Hector MORENO",
+            "time" : 61,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 503,
+            "player" : "Edson ALVAREZ",
+            "time" : 74,
+            "type_of_event" : "goal-own"
+         },
+         {
+            "id" : 489,
+            "player" : "Miguel LAYUN",
+            "time" : 86,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 429,
+            "player" : "Cristian GAMBOA",
+            "time" : 11,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 425,
+            "player" : "Joel CAMPBELL",
+            "time" : 29,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 432,
+            "player" : "Kendall WASTON",
+            "time" : 56,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 432,
+            "player" : "Kendall WASTON",
+            "time" : 89,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 405,
+            "player" : "Blerim DZEMAILI",
+            "time" : 31,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 392,
+            "player" : "Stephan LICHTSTEINER",
+            "time" : 37,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 407,
+            "player" : "Denis ZAKARIA",
+            "time" : 75,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 412,
+            "player" : "Fabian SCHAER",
+            "time" : 83,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 409,
+            "player" : "Josip DRMIC",
+            "time" : 88,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 391,
+            "player" : "Yann SOMMER",
+            "time" : 93,
+            "type_of_event" : "goal-own"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 382,
+            "player" : "PAULINHO",
+            "time" : 36,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 369,
+            "player" : "THIAGO SILVA",
+            "time" : 68,
+            "type_of_event" : "goal"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 458,
+            "player" : "Adem LJAJIC",
+            "time" : 33,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 457,
+            "player" : "Nemanja MATIC",
+            "time" : 48,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 445,
+            "player" : "Aleksandar MITROVIC",
+            "time" : 70,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 648,
+            "player" : "Jan BEDNAREK",
+            "time" : 59,
+            "type_of_event" : "goal"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 732,
+            "player" : "Tomoaki MAKINO",
+            "time" : 66,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 706,
+            "player" : "Johan MOJICA",
+            "time" : 45,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 702,
+            "player" : "Yerry MINA",
+            "time" : 74,
+            "type_of_event" : "goal"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 685,
+            "player" : "Mbaye NIANG",
+            "time" : 51,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 568,
+            "player" : "Youri TIELEMANS",
+            "time" : 19,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 574,
+            "player" : "Leander DENDONCKER",
+            "time" : 33,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 569,
+            "player" : "Adnan JANUZAJ",
+            "time" : 51,
+            "type_of_event" : "goal"
+         },
+         null
+      ],
+      "home_team_events" : [ null ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 601,
+            "player" : "Yassine MERIAH",
+            "time" : 33,
+            "type_of_event" : "goal-own"
+         },
+         {
+            "id" : 610,
+            "player" : "Ferjani SASSI",
+            "time" : 44,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 605,
+            "player" : "Fakhreddine BEN YOUSSEF",
+            "time" : 51,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 607,
+            "player" : "Wahbi KHAZRI",
+            "time" : 66,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 606,
+            "player" : "Anice BADRI",
+            "time" : 71,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 617,
+            "player" : "Ghaylen CHAALELI",
+            "time" : 93,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 593,
+            "player" : "Ricardo AVILA",
+            "time" : 78,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 580,
+            "player" : "Gabriel GOMEZ",
+            "time" : 80,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 592,
+            "player" : "Luis TEJADA",
+            "time" : 96,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 291,
+            "player" : "Marcos ROJO",
+            "time" : 11,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 278,
+            "player" : "Nicolas TAGLIAFICO",
+            "time" : 19,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 286,
+            "player" : "Angel DI MARIA",
+            "time" : 41,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 289,
+            "player" : "Javier MASCHERANO",
+            "time" : 43,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 277,
+            "player" : "Gabriel MERCADO",
+            "time" : 48,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 282,
+            "player" : "Ever BANEGA",
+            "time" : 50,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 294,
+            "player" : "Sergio AGUERO",
+            "time" : 93,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 292,
+            "player" : "Nicolas OTAMENDI",
+            "time" : 93,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 190,
+            "player" : "Antoine GRIEZMANN",
+            "time" : 13,
+            "type_of_event" : "goal-penalty"
+         },
+         {
+            "id" : 185,
+            "player" : "Benjamin PAVARD",
+            "time" : 57,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 193,
+            "player" : "Kylian MBAPPE",
+            "time" : 64,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 193,
+            "player" : "Kylian MBAPPE",
+            "time" : 68,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 197,
+            "player" : "Blaise MATUIDI",
+            "time" : 72,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 185,
+            "player" : "Benjamin PAVARD",
+            "time" : 73,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 192,
+            "player" : "Olivier GIROUD",
+            "time" : 93,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 94,
+            "player" : "PEPE",
+            "time" : 55,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 98,
+            "player" : "CRISTIANO RONALDO",
+            "time" : 93,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 89,
+            "player" : "Edinson CAVANI",
+            "time" : 7,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 89,
+            "player" : "Edinson CAVANI",
+            "time" : 62,
+            "type_of_event" : "goal"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 3,
+            "player" : "Sergey IGNASHEVICH",
+            "time" : 12,
+            "type_of_event" : "goal-own"
+         },
+         {
+            "id" : 21,
+            "player" : "Artem DZYUBA",
+            "time" : 41,
+            "type_of_event" : "goal-penalty"
+         },
+         {
+            "id" : 21,
+            "player" : "Artem DZYUBA",
+            "time" : 42,
+            "type_of_event" : "goal-penalty"
+         },
+         {
+            "id" : 2,
+            "player" : "Ilya KUTEPOV",
+            "time" : 54,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 10,
+            "player" : "Roman ZOBNIN",
+            "time" : 71,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 117,
+            "player" : "Gerard PIQUE",
+            "time" : 40,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 265,
+            "player" : "Mathias  JORGENSEN",
+            "time" : 1,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 265,
+            "player" : "Mathias  JORGENSEN",
+            "time" : 2,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 265,
+            "player" : "Mathias  JORGENSEN",
+            "time" : 115,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 338,
+            "player" : "Mario MANDZUKIC",
+            "time" : 4,
+            "type_of_event" : "goal"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 503,
+            "player" : "Edson ALVAREZ",
+            "time" : 38,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 498,
+            "player" : "Hector HERRERA",
+            "time" : 55,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 485,
+            "player" : "Carlos SALCEDO",
+            "time" : 77,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 500,
+            "player" : "Andres GUARDADO",
+            "time" : 92,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 373,
+            "player" : "FILIPE LUIS",
+            "time" : 43,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 377,
+            "player" : "NEYMAR",
+            "time" : 51,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 372,
+            "player" : "CASEMIRO",
+            "time" : 59,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 387,
+            "player" : "ROBERTO FIRMINO",
+            "time" : 88,
+            "type_of_event" : "goal"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 719,
+            "player" : "Gaku SHIBASAKI",
+            "time" : 40,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 720,
+            "player" : "Genki HARAGUCHI",
+            "time" : 48,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 726,
+            "player" : "Takashi INUI",
+            "time" : 52,
+            "type_of_event" : "goal"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 556,
+            "player" : "Jan VERTONGHEN",
+            "time" : 69,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 559,
+            "player" : "Marouane FELLAINI",
+            "time" : 74,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 573,
+            "player" : "Nacer CHADLI",
+            "time" : 94,
+            "type_of_event" : "goal"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 401,
+            "player" : "Valon BEHRAMI",
+            "time" : 61,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 400,
+            "player" : "Granit XHAKA",
+            "time" : 68,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 396,
+            "player" : "Michael LANG",
+            "time" : 94,
+            "type_of_event" : "red-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 507,
+            "player" : "Mikael LUSTIG",
+            "time" : 31,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 515,
+            "player" : "Emil FORSBERG",
+            "time" : 66,
+            "type_of_event" : "goal"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 628,
+            "player" : "Jordan HENDERSON",
+            "time" : 56,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 629,
+            "player" : "Harry KANE",
+            "time" : 57,
+            "type_of_event" : "goal-penalty"
+         },
+         {
+            "id" : 629,
+            "player" : "Harry KANE",
+            "time" : 58,
+            "type_of_event" : "goal-penalty"
+         },
+         {
+            "id" : 627,
+            "player" : "Jesse  LINGARD",
+            "time" : 69,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 694,
+            "player" : "Wilmar BARRIOS",
+            "time" : 41,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 693,
+            "player" : "Santiago ARIAS",
+            "time" : 52,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 695,
+            "player" : "Carlos SANCHEZ",
+            "time" : 54,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 698,
+            "player" : "Radamel FALCAO",
+            "time" : 63,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 696,
+            "player" : "Carlos BACCA",
+            "time" : 64,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 702,
+            "player" : "Yerry MINA",
+            "time" : 93,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 700,
+            "player" : "Juan CUADRADO",
+            "time" : 118,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 204,
+            "player" : "Lucas HERNANDEZ",
+            "time" : 33,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 187,
+            "player" : "Raphael VARANE",
+            "time" : 40,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 190,
+            "player" : "Antoine GRIEZMANN",
+            "time" : 61,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 193,
+            "player" : "Kylian MBAPPE",
+            "time" : 69,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 74,
+            "player" : "Rodrigo BENTANCUR",
+            "time" : 38,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 74,
+            "player" : "Rodrigo BENTANCUR",
+            "time" : 39,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 75,
+            "player" : "Cristian RODRIGUEZ",
+            "time" : 69,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 558,
+            "player" : "Kevin DE BRUYNE",
+            "time" : 31,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 553,
+            "player" : "Toby ALDERWEIRELD",
+            "time" : 47,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 553,
+            "player" : "Toby ALDERWEIRELD",
+            "time" : 48,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 566,
+            "player" : "Thomas MEUNIER",
+            "time" : 71,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 384,
+            "player" : "FERNANDINHO",
+            "time" : 13,
+            "type_of_event" : "goal-own"
+         },
+         {
+            "id" : 375,
+            "player" : "RENATO AUGUSTO",
+            "time" : 76,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 384,
+            "player" : "FERNANDINHO",
+            "time" : 85,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 389,
+            "player" : "FAGNER",
+            "time" : 90,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 626,
+            "player" : "Harry MAGUIRE",
+            "time" : 30,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 640,
+            "player" : "Dele ALLI",
+            "time" : 59,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 626,
+            "player" : "Harry MAGUIRE",
+            "time" : 87,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 516,
+            "player" : "John GUIDETTI",
+            "time" : 87,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 516,
+            "player" : "John GUIDETTI",
+            "time" : 88,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 512,
+            "player" : "Sebastian LARSSON",
+            "time" : 94,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 327,
+            "player" : "Dejan LOVREN",
+            "time" : 35,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 324,
+            "player" : "Ivan STRINIC",
+            "time" : 38,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 330,
+            "player" : "Andrej KRAMARIC",
+            "time" : 39,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 326,
+            "player" : "Vedran CORLUKA",
+            "time" : 101,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 342,
+            "player" : "Domagoj VIDA",
+            "time" : 101,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 342,
+            "player" : "Domagoj VIDA",
+            "time" : 101,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 342,
+            "player" : "Domagoj VIDA",
+            "time" : 103,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 343,
+            "player" : "Josip PIVARIC",
+            "time" : 114,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 5,
+            "player" : "Denis CHERYSHEV",
+            "time" : 31,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 7,
+            "player" : "Iury GAZINSKY",
+            "time" : 109,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 1,
+            "player" : "MARIO FERNANDES",
+            "time" : 115,
+            "type_of_event" : "goal"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 561,
+            "player" : "Eden HAZARD",
+            "time" : 63,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 553,
+            "player" : "Toby ALDERWEIRELD",
+            "time" : 71,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 556,
+            "player" : "Jan VERTONGHEN",
+            "time" : 94,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 188,
+            "player" : "Samuel UMTITI",
+            "time" : 51,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 196,
+            "player" : "Ngolo KANTE",
+            "time" : 87,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 193,
+            "player" : "Kylian MBAPPE",
+            "time" : 93,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 632,
+            "player" : "Kieran TRIPPIER",
+            "time" : 5,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 622,
+            "player" : "Kyle WALKER",
+            "time" : 54,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 339,
+            "player" : "Ante REBIC",
+            "time" : 48,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 338,
+            "player" : "Mario MANDZUKIC",
+            "time" : 48,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 325,
+            "player" : "Ivan PERISIC",
+            "time" : 68,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 339,
+            "player" : "Ante REBIC",
+            "time" : 96,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 338,
+            "player" : "Mario MANDZUKIC",
+            "time" : 109,
+            "type_of_event" : "goal"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 625,
+            "player" : "John STONES",
+            "time" : 52,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 626,
+            "player" : "Harry MAGUIRE",
+            "time" : 76,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 626,
+            "player" : "Harry MAGUIRE",
+            "time" : 77,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 566,
+            "player" : "Thomas MEUNIER",
+            "time" : 4,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 561,
+            "player" : "Eden HAZARD",
+            "time" : 82,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 557,
+            "player" : "Axel WITSEL",
+            "time" : 94,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ]
+   },
+   {
+      "away_team_events" : [
+         {
+            "id" : 338,
+            "player" : "Mario MANDZUKIC",
+            "time" : 18,
+            "type_of_event" : "goal-own"
+         },
+         {
+            "id" : 325,
+            "player" : "Ivan PERISIC",
+            "time" : 28,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 338,
+            "player" : "Mario MANDZUKIC",
+            "time" : 69,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 323,
+            "player" : "Sime VRSALJKO",
+            "time" : 92,
+            "type_of_event" : "yellow-card"
+         },
+         null
+      ],
+      "home_team_events" : [
+         {
+            "id" : 196,
+            "player" : "Ngolo KANTE",
+            "time" : 27,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 190,
+            "player" : "Antoine GRIEZMANN",
+            "time" : 38,
+            "type_of_event" : "goal-penalty"
+         },
+         {
+            "id" : 190,
+            "player" : "Antoine GRIEZMANN",
+            "time" : 39,
+            "type_of_event" : "goal-penalty"
+         },
+         {
+            "id" : 204,
+            "player" : "Lucas HERNANDEZ",
+            "time" : 41,
+            "type_of_event" : "yellow-card"
+         },
+         {
+            "id" : 189,
+            "player" : "Paul POGBA",
+            "time" : 59,
+            "type_of_event" : "goal"
+         },
+         {
+            "id" : 193,
+            "player" : "Kylian MBAPPE",
+            "time" : 65,
+            "type_of_event" : "goal"
+         },
+         null
+      ]
+   }
+]

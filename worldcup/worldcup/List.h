@@ -25,7 +25,7 @@ class List_iter
 private:
 	ListNode<T>*ptr;
 public:
-	List_iter(ListNode<T>*ptr) :ptr(ptr) {};
+	List_iter(ListNode<T>*ptr=nullptr) :ptr(ptr) {};
 	~List_iter() { ptr = nullptr; };
 	bool operator ==(List_iter<T>&src);
 	bool operator ==(List_iter<T>&&src);
@@ -64,7 +64,8 @@ public:
 	void remove(List_iter<T> fore_iter);
 	bool search(T data);
 	void insert(int index,T data);
-	int size();
+	T find(int index);
+	int Size();
 	//void show();
 private:
 	List_iter<T> search_foreiter(T data);
@@ -84,7 +85,7 @@ inline ListNode<T>::ListNode(T data, ListNode<T>* next):data(data),next(next)
 template<typename T>
 inline ListNode<T>::~ListNode()
 {
-	std::cout << "xigou" << std::endl;
+	//std::cout << "xigou" <<sizeof(T) <<std::endl;
 }
 
 
@@ -116,23 +117,34 @@ template<typename T>
 inline List_iter<T>& List_iter<T>::operator++()
 {
 	// TODO: 在此处插入 return 语句
-	ptr = ptr->next;
-	return *this;
+	if (ptr)
+	{
+		ptr = ptr->next;
+		return *this;
+	}
+	throw std::runtime_error("操作无法执行，到达链表尾部");
+	
 }
 
 template<typename T>
 inline List_iter<T>& List_iter<T>::operator++(int)
 {
 	// TODO: 在此处插入 return 语句
-	List_iter<T> temp = *this;
-	ptr = ptr->next;
-	return temp;
+	if (ptr)
+	{
+		List_iter<T> temp = *this;
+		ptr = ptr->next;
+		return temp;
+	}
+	throw std::runtime_error("操作无法执行，到达链表尾部");
 }
 
 template<typename T>
 inline T List_iter<T>::operator*()
 {
+	if(ptr)
 	return ptr->data;
+	throw std::runtime_error("迭代器指针为空");
 }
 
 template<typename T>
@@ -298,7 +310,7 @@ inline bool List<T>::search(T data)
 	while (p) 
 	{
 		if (p->data == data)
-			return true;
+			return true;		
 		p = p->next;
 	}
 	return false;
@@ -315,7 +327,17 @@ inline void List<T>::insert(int index, T data)
 }
 
 template<class T>
-inline int List<T>::size()
+inline T List<T>::find(int index)
+{
+	ListNode<T>*p = first->next;
+	if (index >= size)
+		throw std::runtime_error("下标越界");
+	for (int i = 0; i < index; p = p->next, i++);
+	return p->data;
+}
+
+template<class T>
+inline int List<T>::Size()
 {
 	return size;
 }

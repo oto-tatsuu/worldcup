@@ -11,6 +11,7 @@
 #include"GameRecord.h"
 #include"DataBase.h"
 #include"Map.h"
+#include"Algorithm.h"
 using std::ifstream;
 using std::ofstream;
 using Json::Value;
@@ -199,52 +200,43 @@ using std::string;
 //			std::cout << "start write";
 //			fcout << sw.write(root);
 //			fcout.close();
+
+class B 
+{
+public:
+	B();
+	
+private:
+	int b;
+public:
+	int get() { return b; }
+	void set(int d) { b = d; }
+};
 int main()
 {
 	DataBase d;
-	d.show_match_result();
+	d.Update(d.match[20].GetStartTime());
+	//d.show_match_result();
+	//d.show_team();
+	for (int i = 0; i < 8; i++) 
+	{
+		Team**point_rank = d.GetPointRank(i);
+		char c = 'A';
+		c += i;
+		std::cout << "group:" << c << std::endl;
+		for (int j = 0; j < 4; j++)
+		{
+			std::cout<<j<<":"<< point_rank[j]->GetName()<< point_rank[j]->GetJudgePoint().point<<std::endl;
+		}
+	}
 	
 	system("pause");
-	return 0;
+	
 }
-////match.json
-//int main() 
-//{
-//	Value root;
-//	Value Match;
-//	Reader reader;
-//	ifstream ifs;
-//	ifs.open("wc.json");
-//	bool a = reader.parse(ifs, root);
-//	{
-//		ifs.close();
-//		for (unsigned int i = 0; i < 64; i++) 
-//		{
-//			Value m;
-//			m["home_team_country"] = root[i]["home_team_country"];
-//			m["location"] = root[i]["location"];
-//			m["away_team_country"] = root[i]["away_team_country"];
-//			m["datetime"] = root[i]["datetime"];
-//			Match.append(m);
-//		}
-//		std::ofstream fcout;
-//			Json::StyledWriter sw;
-//			fcout.open("match_info.json");
-//			std::cout << "start write";
-//			fcout << sw.write(Match);
-//			fcout.close();
-//	}
-//	return 0;
-//}
-//int strTotime(string str)
-//{
-//	int r=0;
-//	string temp=str;
-//	string::size_type sz;
-//	while (!temp.empty())
-//	{
-//		r += std::stoi(temp, &sz);
-//		temp = temp.substr(++sz);
-//	}	
-//	return r;
-//}
+
+
+
+
+B::B()
+{
+}

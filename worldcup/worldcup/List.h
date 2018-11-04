@@ -220,6 +220,7 @@ inline void List<T>::clear()
 		delete p;
 		p = nullptr;
 	}
+	last = first;
 	size = 0;
 }
 

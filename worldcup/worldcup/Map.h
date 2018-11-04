@@ -71,6 +71,7 @@ public:
 	int EdgesNum(int v);
 	int EdgesAllNum();
 	Edge<E> FirstEdge(int index);
+	MapHNode<N, E>* operator[](int i);
 private:
 	vector<MapHNode<N, E>*>map;
 
@@ -151,6 +152,14 @@ inline Edge<E> Map<N, E>::FirstEdge(int index)
 	int to = (*p).index;
 	return Edge<E>(index,to,p);
 }
+
+template<typename N, typename E>
+inline MapHNode<N, E>* Map<N, E>::operator[](int i)
+{
+	return map[i];
+}
+
+
 
 template<typename E>
 inline MapNode<E>::MapNode()

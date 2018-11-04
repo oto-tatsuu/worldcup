@@ -44,22 +44,34 @@ public:
 	Match();
 	~Match();
 private:
+	int match_id;
 	int home_id;
 	int away_id;
-	int home_score;
-	int away_score;
-	int start_time;
-	int	time;
-	int winner;
-	game_status status;
 	string home_name;
 	string away_name;
+	time_t start_time;
+	unsigned int time;
+
+	int home_score;
+	int away_score;
+	int home_card;
+	int away_card;
+	int winner;
+	game_status status;
 	List<PlayerEvent>home_player_events;
 	List<PlayerEvent>away_player_events;
+private:
 	int JudgeWinner();
 public:
 	void AddPlayer(PlayerEvent * newplayer, bool team);
 	void AddEvent(int p_id, Event * event, bool team);
+	time_t GetStartTime();
+	int GetWinner();
+	int GetHomeID();
+	int GetAwayID();
+	void SetHomeID(int t_id);
+	void SetAwayID(int t_id);
+	void ClearRecord();
 	void Update(time_t now);
 	string toString();
 };

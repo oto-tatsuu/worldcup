@@ -2,9 +2,9 @@
 
 
 
-Match::Match():home_id(-1),away_id(-1),home_score(0),away_score(0),status(not_beginning),winner(-1)
+Match::Match():match_id(-1),home_id(-1),away_id(-1),home_score(0),away_score(0),status(not_beginning),winner(-1)
 {
-	
+	time = 90 * 60;
 }
 
 
@@ -22,6 +22,7 @@ int Match::JudgeWinner()
 		return away_id;
 	else return -1;
 }
+
 
 void Match::AddPlayer(PlayerEvent * newplayer, bool team)
 {
@@ -59,17 +60,77 @@ void Match::AddEvent(int p_id, Event * event, bool team)
 
 }
 
+
+time_t Match::GetStartTime()
+{
+	return start_time;
+}
+
+int Match::GetWinner()
+{
+	return winner;
+}
+
+int Match::GetHomeID()
+{
+	return home_id;
+}
+
+int Match::GetAwayID()
+{
+	return away_id;
+}
+
+void Match::SetHomeID(int t_id)
+{
+	home_id = t_id;
+}
+
+void Match::SetAwayID(int t_id)
+{
+	away_id = t_id;
+}
+
+void Match::ClearRecord()
+{
+	home_player_events.clear();
+	away_player_events.clear();
+	winner = -1;
+	home_score = 0;
+	away_score = 0; 
+	home_card = 0;
+	away_card = 0;
+	status = not_beginning;
+}
+
 void Match::Update(time_t now)
 {
 	for (List_iter<PlayerEvent>i= home_player_events.begin();i!=home_player_events.end(); ++i)
 	{
 		auto p = *i;
+		int cnt = 0;
 		for (auto j=p.events.begin(); j != (*i).events.end(); ++j) 
 		{
 			switch ((*j).event_type)
 			{
 			case goal:case goal_penalty: {home_score++; break; }
 			case goal_own: {away_score++; break; }
+			case yellowcard:
+			{
+				if (!cnt) 
+				{
+					home_card += 1;
+					cnt++;
+				}
+				else home_card += 3;
+				break;
+			}
+			case redcard:
+			{
+				if (!cnt)home_card += 4;
+				else home_card += 5;
+				break;
+			}
 			default:break;
 			}
 		}
@@ -77,18 +138,33 @@ void Match::Update(time_t now)
 	for (List_iter<PlayerEvent>i = away_player_events.begin(); i != away_player_events.end(); ++i)
 	{
 		auto p = *i;
+		int cnt=0;
 		for (auto j = p.events.begin(); j != (*i).events.end(); ++j)
 		{
 			switch ((*j).event_type)
 			{
 			case goal:case goal_penalty: {away_score++; break; }
 			case goal_own: {home_score++; break; }
+			case yellowcard: 
+			{
+				if (!cnt) 
+				{
+					away_card += 1; 
+					cnt++;
+				}
+				else away_card += 3;
+				break;
+			}
+			case redcard: 
+			{
+				if (!cnt)away_card += 4;
+				else away_card += 5;
+				break;
+			}
 			default:break;
 			}
 		}
 	}
-	//test
-	status = completed;
 	if (status == completed)
 	{
 		winner = JudgeWinner();
@@ -100,15 +176,9 @@ void Match::Update(time_t now)
 string Match::toString()
 {
 	string r;
-	r += home_name;	
-	r += ":";
-	r +=std::to_string(home_score);
-	r += "\t";
-	r += away_name;
-	r += ":";
-	r += std::to_string(away_score);
-	r += "\twinner:";
-	r += std::to_string(winner);
+	r += std::to_string( home_id)+":"+home_name+":"+std::to_string(home_score)+"\t\t";
+	r += std::to_string(away_id) +":"+ away_name + ":" + std::to_string(away_score)+"\n";
+	r += "winner:"+ std::to_string(winner);
 	return r;
 }
 

@@ -123,6 +123,7 @@
     <ClCompile Include="源.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Algorithm.h" />
     <ClInclude Include="DataBase.h" />
     <ClInclude Include="GameRecord.h" />
     <ClInclude Include="List.h" />

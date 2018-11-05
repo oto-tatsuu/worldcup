@@ -21,6 +21,9 @@ string Team::GetName()
 	return name;
 }
 
+
+
+
 void Team::SetName(string name)
 {
 	this->name = name;

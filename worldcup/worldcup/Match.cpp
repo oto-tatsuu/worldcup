@@ -2,9 +2,8 @@
 
 
 
-Match::Match():match_id(-1),home_id(-1),away_id(-1),home_score(0),away_score(0),status(not_beginning),winner(-1)
+Match::Match():match_id(-1),home_id(-1),away_id(-1),home_score(0),away_score(0),status(not_beginning),winner(-1),time(6000)
 {
-	time = 90 * 60;
 }
 
 

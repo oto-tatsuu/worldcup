@@ -1,243 +1,4709 @@
-[
-   {
-      "country" : "Korea Republic",
-      "fifa_code" : "KOR",
-      "group_id" : 6,
-      "group_letter" : "F",
-      "id" : 24
-   },
-   {
-      "country" : "Germany",
-      "fifa_code" : "GER",
-      "group_id" : 6,
-      "group_letter" : "F",
-      "id" : 21
-   },
-   {
-      "country" : "Serbia",
-      "fifa_code" : "SRB",
-      "group_id" : 5,
-      "group_letter" : "E",
-      "id" : 20
-   },
-   {
-      "country" : "Costa Rica",
-      "fifa_code" : "CRC",
-      "group_id" : 5,
-      "group_letter" : "E",
-      "id" : 19
-   },
-   {
-      "country" : "Belgium",
-      "fifa_code" : "BEL",
-      "group_id" : 7,
-      "group_letter" : "G",
-      "id" : 25
-   },
-   {
-      "country" : "Poland",
-      "fifa_code" : "POL",
-      "group_id" : 8,
-      "group_letter" : "H",
-      "id" : 29
-   },
-   {
-      "country" : "Senegal",
-      "fifa_code" : "SEN",
-      "group_id" : 8,
-      "group_letter" : "H",
-      "id" : 30
-   },
-   {
-      "country" : "England",
-      "fifa_code" : "ENG",
-      "group_id" : 7,
-      "group_letter" : "G",
-      "id" : 28
-   },
-   {
-      "country" : "France",
-      "fifa_code" : "FRA",
-      "group_id" : 3,
-      "group_letter" : "C",
-      "id" : 9
-   },
-   {
-      "country" : "Croatia",
-      "fifa_code" : "CRO",
-      "group_id" : 4,
-      "group_letter" : "D",
-      "id" : 15
-   },
-   {
-      "country" : "Panama",
-      "fifa_code" : "PAN",
-      "group_id" : 7,
-      "group_letter" : "G",
-      "id" : 26
-   },
-   {
-      "country" : "Tunisia",
-      "fifa_code" : "TUN",
-      "group_id" : 7,
-      "group_letter" : "G",
-      "id" : 27
-   },
-   {
-      "country" : "Argentina",
-      "fifa_code" : "ARG",
-      "group_id" : 4,
-      "group_letter" : "D",
-      "id" : 13
-   },
-   {
-      "country" : "Portugal",
-      "fifa_code" : "POR",
-      "group_id" : 2,
-      "group_letter" : "B",
-      "id" : 5
-   },
-   {
-      "country" : "Mexico",
-      "fifa_code" : "MEX",
-      "group_id" : 6,
-      "group_letter" : "F",
-      "id" : 22
-   },
-   {
-      
-      "country" : "Japan",
-      "fifa_code" : "JPN",
-      "group_id" : 8,
-      "group_letter" : "H",
-      "id" : 32
-   },
-   {
-      
-      "country" : "Colombia",
-      "fifa_code" : "COL",
-      "group_id" : 8,
-      "group_letter" : "H",
-      "id" : 31
-   },
-   {
-      
-      "country" : "Switzerland",
-      "fifa_code" : "SUI",
-      "group_id" : 5,
-      "group_letter" : "E",
-      "id" : 18
-   },
-   {
-      
-      "country" : "Uruguay",
-      "fifa_code" : "URU",
-      "group_id" : 1,
-      "group_letter" : "A",
-      "id" : 4
-   },
-   {
-      
-      "country" : "Brazil",
-      "fifa_code" : "BRA",
-      "group_id" : 5,
-      "group_letter" : "E",
-      "id" : 17
-   },
-   {
-      
-      "country" : "Spain",
-      "fifa_code" : "ESP",
-      "group_id" : 2,
-      "group_letter" : "B",
-      "id" : 6
-   },
-   {
-      
-      "country" : "Saudi Arabia",
-      "fifa_code" : "KSA",
-      "group_id" : 1,
-      "group_letter" : "A",
-      "id" : 2
-   },
-   {
-      
-      "country" : "Egypt",
-      "fifa_code" : "EGY",
-      "group_id" : 1,
-      "group_letter" : "A",
-      "id" : 3
-   },
-   {
-      
-      "country" : "Morocco",
-      "fifa_code" : "MAR",
-      "group_id" : 2,
-      "group_letter" : "B",
-      "id" : 7
-   },
-   {
-      
-      "country" : "Iran",
-      "fifa_code" : "IRN",
-      "group_id" : 2,
-      "group_letter" : "B",
-      "id" : 8
-   },
-   {
-      
-      "country" : "Sweden",
-      "fifa_code" : "SWE",
-      "group_id" : 6,
-      "group_letter" : "F",
-      "id" : 23
-   },
-   {
-      
-      "country" : "Australia",
-      "fifa_code" : "AUS",
-      "group_id" : 3,
-      "group_letter" : "C",
-      "id" : 10
-   },
-   {
-      
-      "country" : "Peru",
-      "fifa_code" : "PER",
-      "group_id" : 3,
-      "group_letter" : "C",
-      "id" : 11
-   },
-   {
-      
-      "country" : "Iceland",
-      "fifa_code" : "ISL",
-      "group_id" : 4,
-      "group_letter" : "D",
-      "id" : 14
-   },
-   {
-      
-      "country" : "Nigeria",
-      "fifa_code" : "NGA",
-      "group_id" : 4,
-      "group_letter" : "D",
-      "id" : 16
-   },
-   {
-      
-      "country" : "Russia",
-      "fifa_code" : "RUS",
-      "group_id" : 1,
-      "group_letter" : "A",
-      "id" : 1
-   },
-   {
-      
-      "country" : "Denmark",
-      "fifa_code" : "DEN",
-      "group_id" : 3,
-      "group_letter" : "C",
-      "id" : 12
-   }
-]
+{
+   "match" : null,
+   "team" : [
+      {
+         "country" : "Korea Republic",
+         "fifa_code" : "KOR",
+         "group_id" : 6,
+         "group_letter" : "F",
+         "id" : 24,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "JO Hyeonwoo",
+               "position" : "Goalie",
+               "shirt_number" : 23
+            },
+            {
+               "captain" : false,
+               "name" : "LEE Yong",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "YUN Youngsun",
+               "position" : "Defender",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : true,
+               "name" : "SON Heungmin",
+               "position" : "Forward",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "KOO Jacheol",
+               "position" : "Midfield",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "HONG Chul",
+               "position" : "Defender",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "JUNG Wooyoung",
+               "position" : "Midfield",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "LEE Jaesung",
+               "position" : "Midfield",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "MOON Seonmin",
+               "position" : "Midfield",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "KIM Younggwon",
+               "position" : "Defender",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "JANG Hyunsoo",
+               "position" : "Defender",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "KIM Seunggyu",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "JUNG Seunghyun",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "OH Bansuk",
+               "position" : "Defender",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "PARK Jooho",
+               "position" : "Defender",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : false,
+               "name" : "JU Sejong",
+               "position" : "Midfield",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "KIM Shinwook",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "LEE Seungwoo",
+               "position" : "Midfield",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "HWANG Heechan",
+               "position" : "Forward",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "KIM Minwoo",
+               "position" : "Defender",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "KI Sungyueng",
+               "position" : "Midfield",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "KIM Jinhyeon",
+               "position" : "Goalie",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "GO Yohan",
+               "position" : "Defender",
+               "shirt_number" : 22
+            }
+         ]
+      },
+      {
+         "country" : "Germany",
+         "fifa_code" : "GER",
+         "group_id" : 6,
+         "group_letter" : "F",
+         "id" : 21,
+         "player" : [
+            {
+               "captain" : true,
+               "name" : "Manuel NEUER",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "Jonas HECTOR",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "Julian DRAXLER",
+               "position" : "Midfield",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "Toni KROOS",
+               "position" : "Midfield",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "Timo WERNER",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "Marco REUS",
+               "position" : "Forward",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "Thomas MUELLER",
+               "position" : "Midfield",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "Antonio RUEDIGER",
+               "position" : "Defender",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "Jerome BOATENG",
+               "position" : "Defender",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Joshua KIMMICH",
+               "position" : "Defender",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "Sebastian RUDY",
+               "position" : "Midfield",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "Marvin PLATTENHARDT",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "Matthias GINTER",
+               "position" : "Defender",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "Mats HUMMELS",
+               "position" : "Defender",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "Sami KHEDIRA",
+               "position" : "Midfield",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : false,
+               "name" : "Mesut OEZIL",
+               "position" : "Midfield",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "Kevin TRAPP",
+               "position" : "Goalie",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Leon GORETZKA",
+               "position" : "Midfield",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "Niklas SUELE",
+               "position" : "Defender",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Julian BRANDT",
+               "position" : "Midfield",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "Ilkay GUENDOGAN",
+               "position" : "Midfield",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "Marc-Andre TER STEGEN",
+               "position" : "Goalie",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "Mario GOMEZ",
+               "position" : "Forward",
+               "shirt_number" : 23
+            }
+         ]
+      },
+      {
+         "country" : "Serbia",
+         "fifa_code" : "SRB",
+         "group_id" : 5,
+         "group_letter" : "E",
+         "id" : 20,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "Vladimir STOJKOVIC",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "Antonio RUKAVINA",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "Aleksandar MITROVIC",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "Dusan TADIC",
+               "position" : "Midfield",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : true,
+               "name" : "Aleksandar KOLAROV",
+               "position" : "Defender",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "Milos VELJKOVIC",
+               "position" : "Defender",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "Nikola MILENKOVIC",
+               "position" : "Defender",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Filip KOSTIC",
+               "position" : "Midfield",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Sergej MILINKOVIC-SAVIC",
+               "position" : "Midfield",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "Nemanja MATIC",
+               "position" : "Midfield",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "Adem LJAJIC",
+               "position" : "Midfield",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "Dusko TOSIC",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "Luka MILIVOJEVIC",
+               "position" : "Midfield",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "Uros SPAJIC",
+               "position" : "Defender",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "Branislav IVANOVIC",
+               "position" : "Defender",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : false,
+               "name" : "Andrija ZIVKOVIC",
+               "position" : "Midfield",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "Aleksandar PRIJOVIC",
+               "position" : "Forward",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "Predrag RAJKOVIC",
+               "position" : "Goalie",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Milan RODIC",
+               "position" : "Defender",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "Marko GRUJIC",
+               "position" : "Midfield",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "Nemanja RADONJIC",
+               "position" : "Forward",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "Luka JOVIC",
+               "position" : "Forward",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "Marko DMITROVIC",
+               "position" : "Goalie",
+               "shirt_number" : 23
+            }
+         ]
+      },
+      {
+         "country" : "Costa Rica",
+         "fifa_code" : "CRC",
+         "group_id" : 5,
+         "group_letter" : "E",
+         "id" : 19,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "Keylor NAVAS",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "Johnny ACOSTA",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "Giancarlo GONZALEZ",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "Celso BORGES",
+               "position" : "Midfield",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "Oscar DUARTE",
+               "position" : "Defender",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : true,
+               "name" : "Bryan RUIZ",
+               "position" : "Midfield",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "Johan VENEGAS",
+               "position" : "Forward",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "Francisco CALVO",
+               "position" : "Defender",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Cristian GAMBOA",
+               "position" : "Defender",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "David GUZMAN",
+               "position" : "Midfield",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "Marcos URENA",
+               "position" : "Forward",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "Ian SMITH",
+               "position" : "Defender",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "Christian BOLANOS",
+               "position" : "Midfield",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "Bryan OVIEDO",
+               "position" : "Defender",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "Daniel COLINDRES",
+               "position" : "Midfield",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "Joel CAMPBELL",
+               "position" : "Forward",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Rodney WALLACE",
+               "position" : "Midfield",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "Randall AZOFEIFA",
+               "position" : "Midfield",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "Yeltsin TEJEDA",
+               "position" : "Midfield",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Patrick PEMBERTON",
+               "position" : "Goalie",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "Kendall WASTON",
+               "position" : "Defender",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "Kenner GUTIERREZ",
+               "position" : "Defender",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "Leonel MOREIRA",
+               "position" : "Goalie",
+               "shirt_number" : 23
+            }
+         ]
+      },
+      {
+         "country" : "Belgium",
+         "fifa_code" : "BEL",
+         "group_id" : 7,
+         "group_letter" : "G",
+         "id" : 25,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "Thibaut COURTOIS",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "Toby ALDERWEIRELD",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "Vincent KOMPANY",
+               "position" : "Defender",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "Jan VERTONGHEN",
+               "position" : "Defender",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "Axel WITSEL",
+               "position" : "Midfield",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : false,
+               "name" : "Kevin DE BRUYNE",
+               "position" : "Midfield",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "Romelu LUKAKU",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : true,
+               "name" : "Eden HAZARD",
+               "position" : "Forward",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "Thomas MEUNIER",
+               "position" : "Defender",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Youri TIELEMANS",
+               "position" : "Midfield",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Nacer CHADLI",
+               "position" : "Midfield",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "Thomas VERMAELEN",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "Marouane FELLAINI",
+               "position" : "Midfield",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "Yannick CARRASCO",
+               "position" : "Midfield",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "Simon MIGNOLET",
+               "position" : "Goalie",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Koen CASTEELS",
+               "position" : "Goalie",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "Dries MERTENS",
+               "position" : "Forward",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "Thorgan HAZARD",
+               "position" : "Midfield",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "Adnan JANUZAJ",
+               "position" : "Forward",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "Moussa DEMBELE",
+               "position" : "Midfield",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "Dedryck BOYATA",
+               "position" : "Defender",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "Michy BATSHUAYI",
+               "position" : "Forward",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "Leander DENDONCKER",
+               "position" : "Defender",
+               "shirt_number" : 23
+            }
+         ]
+      },
+      {
+         "country" : "Poland",
+         "fifa_code" : "POL",
+         "group_id" : 8,
+         "group_letter" : "H",
+         "id" : 29,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "Wojciech SZCZESNY",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "Michal PAZDAN",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "Jan BEDNAREK",
+               "position" : "Defender",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "Jacek GORALSKI",
+               "position" : "Midfield",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : true,
+               "name" : "Robert LEWANDOWSKI",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "Grzegorz KRYCHOWIAK",
+               "position" : "Midfield",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "Maciej RYBUS",
+               "position" : "Midfield",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "Bartosz BERESZYNSKI",
+               "position" : "Defender",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "Piotr ZIELINSKI",
+               "position" : "Midfield",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "Lukasz PISZCZEK",
+               "position" : "Defender",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "Dawid KOWNACKI",
+               "position" : "Forward",
+               "shirt_number" : 23
+            },
+            {
+               "captain" : false,
+               "name" : "Artur JEDRZEJCZYK",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "Thiago CIONEK",
+               "position" : "Defender",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "Arkadiusz MILIK",
+               "position" : "Forward",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "Karol LINETTY",
+               "position" : "Midfield",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "Kamil GROSICKI",
+               "position" : "Midfield",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "Bartosz BIALKOWSKI",
+               "position" : "Goalie",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Lukasz TEODORCZYK",
+               "position" : "Forward",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "Kamil GLIK",
+               "position" : "Defender",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Jakub BLASZCZYKOWSKI",
+               "position" : "Midfield",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "Slawomir PESZKO",
+               "position" : "Midfield",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Rafal KURZAWA",
+               "position" : "Midfield",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "Lukasz FABIANSKI",
+               "position" : "Goalie",
+               "shirt_number" : 22
+            }
+         ]
+      },
+      {
+         "country" : "Senegal",
+         "fifa_code" : "SEN",
+         "group_id" : 8,
+         "group_letter" : "H",
+         "id" : 30,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "Khadim NDIAYE",
+               "position" : "Goalie",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "Kalidou KOULIBALY",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "Idrissa Gana GUEYE",
+               "position" : "Midfield",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "Salif SANE",
+               "position" : "Midfield",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : true,
+               "name" : "Cheikhou KOUYATE",
+               "position" : "Midfield",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "Sadio MANE",
+               "position" : "Forward",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "Youssouf SABALY",
+               "position" : "Defender",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Ismaila SARR",
+               "position" : "Forward",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "Mbaye NIANG",
+               "position" : "Forward",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "Keita BALDE",
+               "position" : "Forward",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "Lamine GASSAMA",
+               "position" : "Defender",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "Abdoulaye DIALLO",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "Adama MBENGUE",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "Kara MBODJI",
+               "position" : "Defender",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "Moussa SOW",
+               "position" : "Forward",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "Mame DIOUF",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "Cheikh NDOYE",
+               "position" : "Midfield",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "Alfred NDIAYE",
+               "position" : "Midfield",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "Moussa KONATE",
+               "position" : "Forward",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "Diafra SAKHO",
+               "position" : "Forward",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Pape Alioune NDIAYE",
+               "position" : "Midfield",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Moussa WAGUE",
+               "position" : "Defender",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "Alfred GOMIS",
+               "position" : "Goalie",
+               "shirt_number" : 23
+            }
+         ]
+      },
+      {
+         "country" : "England",
+         "fifa_code" : "ENG",
+         "group_id" : 7,
+         "group_letter" : "G",
+         "id" : 28,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "Jordan PICKFORD",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "Danny ROSE",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : true,
+               "name" : "Eric  DIER",
+               "position" : "Midfield",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "John STONES",
+               "position" : "Defender",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "Jamie VARDY",
+               "position" : "Forward",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "Gary CAHILL",
+               "position" : "Defender",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Phil JONES",
+               "position" : "Defender",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "Fabian DELPH",
+               "position" : "Defender",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Marcus RASHFORD",
+               "position" : "Forward",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "Ruben LOFTUS-CHEEK",
+               "position" : "Midfield",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "Trent ALEXANDER-ARNOLD",
+               "position" : "Defender",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "Kyle WALKER",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "Harry MAGUIRE",
+               "position" : "Defender",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : false,
+               "name" : "Jesse  LINGARD",
+               "position" : "Midfield",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "Jordan HENDERSON",
+               "position" : "Midfield",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "Harry KANE",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "Raheem STERLING",
+               "position" : "Forward",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "Kieran TRIPPIER",
+               "position" : "Defender",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Jack BUTLAND",
+               "position" : "Goalie",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "Danny WELBECK",
+               "position" : "Forward",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "Ashley  YOUNG",
+               "position" : "Defender",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "Dele ALLI",
+               "position" : "Midfield",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "Nick POPE",
+               "position" : "Goalie",
+               "shirt_number" : 23
+            }
+         ]
+      },
+      {
+         "country" : "France",
+         "fifa_code" : "FRA",
+         "group_id" : 3,
+         "group_letter" : "C",
+         "id" : 9,
+         "player" : [
+            {
+               "captain" : true,
+               "name" : "Hugo LLORIS",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "Benjamin PAVARD",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "Raphael VARANE",
+               "position" : "Defender",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "Samuel UMTITI",
+               "position" : "Defender",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "Paul POGBA",
+               "position" : "Midfield",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : false,
+               "name" : "Antoine GRIEZMANN",
+               "position" : "Forward",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "Olivier GIROUD",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "Kylian MBAPPE",
+               "position" : "Forward",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "Ngolo KANTE",
+               "position" : "Midfield",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "Blaise MATUIDI",
+               "position" : "Midfield",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "Lucas HERNANDEZ",
+               "position" : "Defender",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "Presnel KIMPEMBE",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "Thomas LEMAR",
+               "position" : "Forward",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "Ousmane DEMBELE",
+               "position" : "Forward",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "Corentin TOLISSO",
+               "position" : "Midfield",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Steven NZONZI",
+               "position" : "Midfield",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Steve MANDANDA",
+               "position" : "Goalie",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "Adil RAMI",
+               "position" : "Defender",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Nabil FEKIR",
+               "position" : "Forward",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "Djibril SIDIBE",
+               "position" : "Defender",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "Florian THAUVIN",
+               "position" : "Forward",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "Benjamin MENDY",
+               "position" : "Defender",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "Alphonse AREOLA",
+               "position" : "Goalie",
+               "shirt_number" : 23
+            }
+         ]
+      },
+      {
+         "country" : "Croatia",
+         "fifa_code" : "CRO",
+         "group_id" : 4,
+         "group_letter" : "D",
+         "id" : 15,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "Danijel SUBASIC",
+               "position" : "Goalie",
+               "shirt_number" : 23
+            },
+            {
+               "captain" : false,
+               "name" : "Sime VRSALJKO",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "Ivan STRINIC",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "Ivan PERISIC",
+               "position" : "Forward",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "Dejan LOVREN",
+               "position" : "Defender",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : false,
+               "name" : "Ivan RAKITIC",
+               "position" : "Midfield",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : true,
+               "name" : "Luka MODRIC",
+               "position" : "Midfield",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "Marcelo BROZOVIC",
+               "position" : "Midfield",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "Mario MANDZUKIC",
+               "position" : "Forward",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Ante REBIC",
+               "position" : "Forward",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "Domagoj VIDA",
+               "position" : "Defender",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "Dominik LIVAKOVIC",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "Vedran CORLUKA",
+               "position" : "Defender",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "Mateo KOVACIC",
+               "position" : "Midfield",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "Andrej KRAMARIC",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "Lovre KALINIC",
+               "position" : "Goalie",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Tin JEDVAJ",
+               "position" : "Defender",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "Filip BRADARIC",
+               "position" : "Midfield",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "Duje CALETA-CAR",
+               "position" : "Defender",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Milan BADELJ",
+               "position" : "Midfield",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "Marko PJACA",
+               "position" : "Forward",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "Josip PIVARIC",
+               "position" : "Defender",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "Nikola KALINIC",
+               "position" : "Forward",
+               "shirt_number" : 16
+            }
+         ]
+      },
+      {
+         "country" : "Panama",
+         "fifa_code" : "PAN",
+         "group_id" : 7,
+         "group_letter" : "G",
+         "id" : 26,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "Jaime PENEDO",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "Fidel ESCOBAR",
+               "position" : "Defender",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : true,
+               "name" : "Roman TORRES",
+               "position" : "Defender",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "Gabriel GOMEZ",
+               "position" : "Midfield",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : false,
+               "name" : "Edgar BARCENAS",
+               "position" : "Midfield",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "Gabriel TORRES",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "Adolfo MACHADO",
+               "position" : "Defender",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "Luis OVALLE",
+               "position" : "Defender",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Ricardo AVILA",
+               "position" : "Midfield",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "Anibal GODOY",
+               "position" : "Midfield",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "Jose Luis RODRIGUEZ",
+               "position" : "Midfield",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "Harold CUMMINGS",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "Blas PEREZ",
+               "position" : "Forward",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "Jose CALDERON",
+               "position" : "Goalie",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Valentin PIMENTEL",
+               "position" : "Midfield",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "Eric DAVIS",
+               "position" : "Defender",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Abdiel ARROYO",
+               "position" : "Forward",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "Luis TEJADA",
+               "position" : "Forward",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "Alex RODRIGUEZ",
+               "position" : "Goalie",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "Felipe BALOY",
+               "position" : "Defender",
+               "shirt_number" : 23
+            },
+            {
+               "captain" : false,
+               "name" : "Michael MURILLO",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "Armando COOPER",
+               "position" : "Midfield",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "Ismael DIAZ",
+               "position" : "Forward",
+               "shirt_number" : 10
+            }
+         ]
+      },
+      {
+         "country" : "Tunisia",
+         "fifa_code" : "TUN",
+         "group_id" : 7,
+         "group_letter" : "G",
+         "id" : 27,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "Mouez HASSEN",
+               "position" : "Goalie",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "Syam BEN YOUSSEF",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "Yassine MERIAH",
+               "position" : "Defender",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "Fakhreddine BEN YOUSSEF",
+               "position" : "Forward",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "Anice BADRI",
+               "position" : "Midfield",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : true,
+               "name" : "Wahbi KHAZRI",
+               "position" : "Forward",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "Dylan BRONN",
+               "position" : "Defender",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "Ali MAALOUL",
+               "position" : "Defender",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Ferjani SASSI",
+               "position" : "Midfield",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "Ellyes SKHIRI",
+               "position" : "Midfield",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Naim SLITI",
+               "position" : "Forward",
+               "shirt_number" : 23
+            },
+            {
+               "captain" : false,
+               "name" : "Farouk BEN MUSTAPHA",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "Yohan BEN ALOUANE",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "Oussama HADDADI",
+               "position" : "Defender",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "Rami BEDOUI",
+               "position" : "Defender",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : false,
+               "name" : "Saifeddine KHAOUI",
+               "position" : "Forward",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "Mohamed BEN AMOR",
+               "position" : "Midfield",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "Ahmed KHALIL",
+               "position" : "Forward",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Aymen MATHLOUTHI",
+               "position" : "Goalie",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "Bassem SRARFI",
+               "position" : "Forward",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "Saber KHALIFA",
+               "position" : "Forward",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "Ghaylen CHAALELI",
+               "position" : "Forward",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "Hamdi NAGUEZ",
+               "position" : "Defender",
+               "shirt_number" : 21
+            }
+         ]
+      },
+      {
+         "country" : "Argentina",
+         "fifa_code" : "ARG",
+         "group_id" : 4,
+         "group_letter" : "D",
+         "id" : 13,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "Wilfredo CABALLERO",
+               "position" : "Goalie",
+               "shirt_number" : 23
+            },
+            {
+               "captain" : false,
+               "name" : "Gabriel MERCADO",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "Nicolas TAGLIAFICO",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "Marcos ACUNA",
+               "position" : "Defender",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : true,
+               "name" : "Lionel MESSI",
+               "position" : "Forward",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "Maximiliano MEZA",
+               "position" : "Midfield",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "Javier MASCHERANO",
+               "position" : "Defender",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "Enzo PEREZ",
+               "position" : "Midfield",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Nicolas OTAMENDI",
+               "position" : "Defender",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Eduardo SALVIO",
+               "position" : "Defender",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "Sergio AGUERO",
+               "position" : "Forward",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "Nahuel GUZMAN",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "Cristian ANSALDI",
+               "position" : "Defender",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "Lucas BIGLIA",
+               "position" : "Midfield",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "Federico FAZIO",
+               "position" : "Defender",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : false,
+               "name" : "Ever BANEGA",
+               "position" : "Midfield",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "Gonzalo HIGUAIN",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "Angel DI MARIA",
+               "position" : "Midfield",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "Franco ARMANI",
+               "position" : "Goalie",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Marcos ROJO",
+               "position" : "Defender",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "Giovani LO CELSO",
+               "position" : "Midfield",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "Paulo DYBALA",
+               "position" : "Forward",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "Cristian PAVON",
+               "position" : "Midfield",
+               "shirt_number" : 22
+            }
+         ]
+      },
+      {
+         "country" : "Portugal",
+         "fifa_code" : "POR",
+         "group_id" : 2,
+         "group_letter" : "B",
+         "id" : 5,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "RUI PATRICIO",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "PEPE",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "RAPHAEL GUERREIRO",
+               "position" : "Defender",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "JOSE FONTE",
+               "position" : "Defender",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : true,
+               "name" : "CRISTIANO RONALDO",
+               "position" : "Forward",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "JOAO MOUTINHO",
+               "position" : "Midfield",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "JOAO MARIO",
+               "position" : "Midfield",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "BERNARDO SILVA",
+               "position" : "Midfield",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "WILLIAM",
+               "position" : "Midfield",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "GONCALO GUEDES",
+               "position" : "Forward",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "CEDRIC",
+               "position" : "Defender",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "BRUNO ALVES",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "MANUEL FERNANDES",
+               "position" : "Midfield",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "ANDRE SILVA",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "ANTHONY LOPES",
+               "position" : "Goalie",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "RUBEN DIAS",
+               "position" : "Defender",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "RICARDO",
+               "position" : "Defender",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "BRUNO FERNANDES",
+               "position" : "Midfield",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "GELSON MARTINS",
+               "position" : "Forward",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "MARIO RUI",
+               "position" : "Defender",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "RICARDO QUARESMA",
+               "position" : "Forward",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "BETO",
+               "position" : "Goalie",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "ADRIEN SILVA",
+               "position" : "Midfield",
+               "shirt_number" : 23
+            }
+         ]
+      },
+      {
+         "country" : "Mexico",
+         "fifa_code" : "MEX",
+         "group_id" : 6,
+         "group_letter" : "F",
+         "id" : 22,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "Guillermo OCHOA",
+               "position" : "Goalie",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "Carlos SALCEDO",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "Miguel LAYUN",
+               "position" : "Midfield",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "Carlos VELA",
+               "position" : "Forward",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "Javier HERNANDEZ",
+               "position" : "Forward",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "Hector MORENO",
+               "position" : "Defender",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Hector HERRERA",
+               "position" : "Defender",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : true,
+               "name" : "Andres GUARDADO",
+               "position" : "Midfield",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "Edson ALVAREZ",
+               "position" : "Defender",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "Hirving  LOZANO",
+               "position" : "Forward",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "Jesus GALLARDO",
+               "position" : "Midfield",
+               "shirt_number" : 23
+            },
+            {
+               "captain" : false,
+               "name" : "Jose CORONA",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "Hugo AYALA",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "Rafael MARQUEZ",
+               "position" : "Defender",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "Erick GUTIERREZ",
+               "position" : "Midfield",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "Jonathan DOS SANTOS",
+               "position" : "Midfield",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : false,
+               "name" : "Marco FABIAN",
+               "position" : "Forward",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "Raul JIMENEZ",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "Giovani DOS SANTOS",
+               "position" : "Midfield",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "Alfredo TALAVERA",
+               "position" : "Goalie",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Jesus CORONA",
+               "position" : "Midfield",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Oribe PERALTA",
+               "position" : "Forward",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "Javier AQUINO",
+               "position" : "Midfield",
+               "shirt_number" : 20
+            }
+         ]
+      },
+      {
+         "country" : "Japan",
+         "fifa_code" : "JPN",
+         "group_id" : 8,
+         "group_letter" : "H",
+         "id" : 32,
+         "player" : [
+            {
+               "captain" : true,
+               "name" : "Eiji KAWASHIMA",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "Yuto NAGATOMO",
+               "position" : "Defender",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "Gaku SHIBASAKI",
+               "position" : "Midfield",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "Shinji OKAZAKI",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "Takashi USAMI",
+               "position" : "Midfield",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "Yoshinori MUTO",
+               "position" : "Forward",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "Hotaru YAMAGUCHI",
+               "position" : "Midfield",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "Hiroki SAKAI",
+               "position" : "Defender",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "Tomoaki MAKINO",
+               "position" : "Defender",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "Gotoku SAKAI",
+               "position" : "Defender",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "Maya YOSHIDA",
+               "position" : "Defender",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "Naomichi UEDA",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "Gen SHOJI",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "Keisuke HONDA",
+               "position" : "Midfield",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "Wataru ENDO",
+               "position" : "Defender",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : false,
+               "name" : "Genki HARAGUCHI",
+               "position" : "Midfield",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "Shinji KAGAWA",
+               "position" : "Midfield",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "Masaaki HIGASHIGUCHI",
+               "position" : "Goalie",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Takashi INUI",
+               "position" : "Midfield",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "Yuya OSAKO",
+               "position" : "Forward",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Makoto HASEBE",
+               "position" : "Midfield",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Ryota OHSHIMA",
+               "position" : "Midfield",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "Kosuke NAKAMURA",
+               "position" : "Goalie",
+               "shirt_number" : 23
+            }
+         ]
+      },
+      {
+         "country" : "Colombia",
+         "fifa_code" : "COL",
+         "group_id" : 8,
+         "group_letter" : "H",
+         "id" : 31,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "David OSPINA",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "Santiago ARIAS",
+               "position" : "Defender",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "Wilmar BARRIOS",
+               "position" : "Midfield",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "Carlos SANCHEZ",
+               "position" : "Midfield",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : true,
+               "name" : "Radamel FALCAO",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "Juan CUADRADO",
+               "position" : "Midfield",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "Yerry MINA",
+               "position" : "Defender",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "Jefferson  LERMA",
+               "position" : "Midfield",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "Johan MOJICA",
+               "position" : "Defender",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Juan QUINTERO",
+               "position" : "Midfield",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "Davinson SANCHEZ",
+               "position" : "Defender",
+               "shirt_number" : 23
+            },
+            {
+               "captain" : false,
+               "name" : "Cristian ZAPATA",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "Oscar MURILLO",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "Carlos BACCA",
+               "position" : "Forward",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "Abel AGUILAR",
+               "position" : "Midfield",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "Camilo VARGAS",
+               "position" : "Goalie",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Luis MURIEL",
+               "position" : "Forward",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "Mateus URIBE",
+               "position" : "Midfield",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Farid DIAZ",
+               "position" : "Defender",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "Jose IZQUIERDO",
+               "position" : "Forward",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "Jose CUADRADO",
+               "position" : "Goalie",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "James RODRIGUEZ",
+               "position" : "Midfield",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "Miguel BORJA",
+               "position" : "Forward",
+               "shirt_number" : 19
+            }
+         ]
+      },
+      {
+         "country" : "Switzerland",
+         "fifa_code" : "SUI",
+         "group_id" : 5,
+         "group_letter" : "E",
+         "id" : 18,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "Yann SOMMER",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : true,
+               "name" : "Stephan LICHTSTEINER",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "Manuel AKANJI",
+               "position" : "Defender",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "Breel EMBOLO",
+               "position" : "Forward",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "Granit XHAKA",
+               "position" : "Midfield",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "Valon BEHRAMI",
+               "position" : "Midfield",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "Ricardo RODRIGUEZ",
+               "position" : "Defender",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "Blerim DZEMAILI",
+               "position" : "Midfield",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Mario GAVRANOVIC",
+               "position" : "Forward",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "Fabian SCHAER",
+               "position" : "Defender",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "Xherdan SHAQIRI",
+               "position" : "Midfield",
+               "shirt_number" : 23
+            },
+            {
+               "captain" : false,
+               "name" : "Francois MOUBANDJE",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "Nico ELVEDI",
+               "position" : "Defender",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "Michael LANG",
+               "position" : "Defender",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : false,
+               "name" : "Remo FREULER",
+               "position" : "Midfield",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "Haris SEFEROVIC",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "Yvon MVOGO",
+               "position" : "Goalie",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Gelson FERNANDES",
+               "position" : "Midfield",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "Denis ZAKARIA",
+               "position" : "Midfield",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Josip DRMIC",
+               "position" : "Forward",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "Johan DJOUROU",
+               "position" : "Defender",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "Roman BUERKI",
+               "position" : "Goalie",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "Steven ZUBER",
+               "position" : "Midfield",
+               "shirt_number" : 14
+            }
+         ]
+      },
+      {
+         "country" : "Uruguay",
+         "fifa_code" : "URU",
+         "group_id" : 1,
+         "group_letter" : "A",
+         "id" : 4,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "Fernando MUSLERA",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "Jose GIMENEZ",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : true,
+               "name" : "Diego GODIN",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "Rodrigo BENTANCUR",
+               "position" : "Midfield",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : false,
+               "name" : "Nahitan NANDEZ",
+               "position" : "Midfield",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "Luis SUAREZ",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "Cristhian STUANI",
+               "position" : "Forward",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "Lucas TORREIRA",
+               "position" : "Midfield",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "Matias VECINO",
+               "position" : "Midfield",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Diego LAXALT",
+               "position" : "Midfield",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Martin CACERES",
+               "position" : "Defender",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "Guillermo VARELA",
+               "position" : "Defender",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "Carlos SANCHEZ",
+               "position" : "Midfield",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "Cristian RODRIGUEZ",
+               "position" : "Midfield",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "Giorgian DE ARRASCAETA",
+               "position" : "Forward",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "Martin CAMPANA",
+               "position" : "Goalie",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Gaston SILVA",
+               "position" : "Defender",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "Maximiliano PEREIRA",
+               "position" : "Defender",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "Maximiliano GOMEZ",
+               "position" : "Forward",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "Sebastian COATES",
+               "position" : "Defender",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "Jonathan URRETAVISCAYA",
+               "position" : "Forward",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "Martin SILVA",
+               "position" : "Goalie",
+               "shirt_number" : 23
+            },
+            {
+               "captain" : false,
+               "name" : "Edinson CAVANI",
+               "position" : "Forward",
+               "shirt_number" : 21
+            }
+         ]
+      },
+      {
+         "country" : "Brazil",
+         "fifa_code" : "BRA",
+         "group_id" : 5,
+         "group_letter" : "E",
+         "id" : 17,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "ALISSON",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "THIAGO SILVA",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : true,
+               "name" : "MIRANDA",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "GABRIEL JESUS",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "NEYMAR",
+               "position" : "Forward",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "PHILIPPE COUTINHO",
+               "position" : "Midfield",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "MARCELO",
+               "position" : "Defender",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "PAULINHO",
+               "position" : "Midfield",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "FERNANDINHO",
+               "position" : "Midfield",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "WILLIAN",
+               "position" : "Midfield",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "FAGNER",
+               "position" : "Defender",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "PEDRO GEROMEL",
+               "position" : "Defender",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "FILIPE LUIS",
+               "position" : "Defender",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : false,
+               "name" : "DOUGLAS COSTA",
+               "position" : "Forward",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "RENATO AUGUSTO",
+               "position" : "Midfield",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "MARQUINHOS",
+               "position" : "Defender",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "CASSIO",
+               "position" : "Goalie",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "FRED",
+               "position" : "Midfield",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "ROBERTO FIRMINO",
+               "position" : "Forward",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "TAISON",
+               "position" : "Forward",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "EDERSON",
+               "position" : "Goalie",
+               "shirt_number" : 23
+            },
+            {
+               "captain" : false,
+               "name" : "CASEMIRO",
+               "position" : "Midfield",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "DANILO",
+               "position" : "Defender",
+               "shirt_number" : 14
+            }
+         ]
+      },
+      {
+         "country" : "Spain",
+         "fifa_code" : "ESP",
+         "group_id" : 2,
+         "group_letter" : "B",
+         "id" : 6,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "David DE GEA",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "Gerard PIQUE",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "NACHO",
+               "position" : "Defender",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "Sergio BUSQUETS",
+               "position" : "Midfield",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "KOKE",
+               "position" : "Midfield",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : true,
+               "name" : "Sergio RAMOS",
+               "position" : "Defender",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Jordi ALBA",
+               "position" : "Defender",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "Diego COSTA",
+               "position" : "Forward",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "Marco ASENSIO",
+               "position" : "Midfield",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "David SILVA",
+               "position" : "Forward",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "ISCO",
+               "position" : "Midfield",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "Dani CARVAJAL",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "Andres INIESTA",
+               "position" : "Midfield",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : false,
+               "name" : "SAUL",
+               "position" : "Midfield",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "RODRIGO",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "THIAGO",
+               "position" : "Midfield",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "Lucas VAZQUEZ",
+               "position" : "Forward",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "Alvaro ODRIOZOLA",
+               "position" : "Defender",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Kepa ARRIZABALAGA",
+               "position" : "Goalie",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "Cesar AZPILICUETA",
+               "position" : "Defender",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "Nacho MONREAL",
+               "position" : "Defender",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "Iago ASPAS",
+               "position" : "Forward",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Pepe REINA",
+               "position" : "Goalie",
+               "shirt_number" : 23
+            }
+         ]
+      },
+      {
+         "country" : "Saudi Arabia",
+         "fifa_code" : "KSA",
+         "group_id" : 1,
+         "group_letter" : "A",
+         "id" : 2,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "YASSER ALMOSAILEM",
+               "position" : "Goalie",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : true,
+               "name" : "OSAMA HAWSAWI",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "MOHAMMED ALBURAYK",
+               "position" : "Defender",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : false,
+               "name" : "SALMAN ALFARAJ",
+               "position" : "Midfield",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "HATAN BAHBRI",
+               "position" : "Midfield",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "YASSER ALSHAHRANI",
+               "position" : "Defender",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "ABDULLAH OTAYF",
+               "position" : "Midfield",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "HUSSAIN ALMOQAHWI",
+               "position" : "Midfield",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "SALEM ALDAWSARI",
+               "position" : "Midfield",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "FAHAD ALMUWALLAD",
+               "position" : "Forward",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "MOTAZ HAWSAWI",
+               "position" : "Defender",
+               "shirt_number" : 23
+            },
+            {
+               "captain" : false,
+               "name" : "ABDULLAH ALMUAIOUF",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "MANSOUR ALHARBI",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "YAHIA ALSHEHRI",
+               "position" : "Midfield",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "MOHAMMED ALSAHLAWI",
+               "position" : "Forward",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "ABDULMALEK ALKHAIBRI",
+               "position" : "Midfield",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "MOHAMED KANNO",
+               "position" : "Midfield",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "ABDULLAH ALKHAIBARI",
+               "position" : "Midfield",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "MUHANNAD ASIRI",
+               "position" : "Forward",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "MOHAMMED ALOWAIS",
+               "position" : "Goalie",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "ALI ALBULAYHI",
+               "position" : "Defender",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "OMAR HAWSAWI",
+               "position" : "Defender",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "TAISEER ALJASSAM",
+               "position" : "Midfield",
+               "shirt_number" : 17
+            }
+         ]
+      },
+      {
+         "country" : "Egypt",
+         "fifa_code" : "EGY",
+         "group_id" : 1,
+         "group_letter" : "A",
+         "id" : 3,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "MOHAMED ELSHENAWY",
+               "position" : "Goalie",
+               "shirt_number" : 23
+            },
+            {
+               "captain" : false,
+               "name" : "ALI GABR",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "AHMED HEGAZY",
+               "position" : "Defender",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : true,
+               "name" : "AHMED FATHI",
+               "position" : "Defender",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "TAREK HAMED",
+               "position" : "Midfield",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "MARWAN MOHSEN",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "MOHAMED ABDELSHAFY",
+               "position" : "Defender",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "MOHAMED ELNENY",
+               "position" : "Midfield",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "ABDALLA SAID",
+               "position" : "Midfield",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "TREZIGUET",
+               "position" : "Midfield",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "AMR WARDA",
+               "position" : "Forward",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "ESSAM ELHADARY",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "AHMED ELMOHAMADY",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "OMAR GABER",
+               "position" : "Midfield",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "SAM MORSY",
+               "position" : "Midfield",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "MOHAMED SALAH",
+               "position" : "Forward",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "KAHRABA",
+               "position" : "Forward",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "AYMAN ASHRAF",
+               "position" : "Defender",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "RAMADAN SOBHY",
+               "position" : "Forward",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "MAHMOUD HAMDY",
+               "position" : "Defender",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "SHERIF EKRAMY",
+               "position" : "Goalie",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "SHIKABALA",
+               "position" : "Forward",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "SAMIR SAAD",
+               "position" : "Defender",
+               "shirt_number" : 20
+            }
+         ]
+      },
+      {
+         "country" : "Morocco",
+         "fifa_code" : "MAR",
+         "group_id" : 2,
+         "group_letter" : "B",
+         "id" : 7,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "Monir EL KAJOUI",
+               "position" : "Goalie",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Achraf HAKIMI",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : true,
+               "name" : "Mehdi BENATIA",
+               "position" : "Defender",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "Ghanem SAISS",
+               "position" : "Defender",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : false,
+               "name" : "Hakim ZIYACH",
+               "position" : "Midfield",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "Karim EL AHMADI",
+               "position" : "Midfield",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "Ayoub EL KAABI",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "Younes BELHANDA",
+               "position" : "Midfield",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "Mbark BOUSSOUFA",
+               "position" : "Midfield",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "Noureddine AMRABAT",
+               "position" : "Midfield",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "Amine HARIT",
+               "position" : "Midfield",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "Yassine BOUNOU",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "Hamza MENDYL",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "Manuel DA COSTA",
+               "position" : "Defender",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "Faycal FAJR",
+               "position" : "Midfield",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "Khalid BOUTAIB",
+               "position" : "Forward",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "Youssef AIT BENNASSER",
+               "position" : "Midfield",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Nabil DIRAR",
+               "position" : "Defender",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Youssef EN NESYRI",
+               "position" : "Forward",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "Aziz BOUHADDOUZ",
+               "position" : "Forward",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "Sofyan AMRABAT",
+               "position" : "Midfield",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "Ahmed TAGNAOUTI",
+               "position" : "Goalie",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "Mehdi CARCELA",
+               "position" : "Midfield",
+               "shirt_number" : 23
+            }
+         ]
+      },
+      {
+         "country" : "Iran",
+         "fifa_code" : "IRN",
+         "group_id" : 2,
+         "group_letter" : "B",
+         "id" : 8,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "Ali BEIRANVAND",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : true,
+               "name" : "Ehsan HAJI SAFI",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "Saeid EZATOLAHI",
+               "position" : "Midfield",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : false,
+               "name" : "Morteza POURALIGANJI",
+               "position" : "Defender",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "Omid EBRAHIMI",
+               "position" : "Midfield",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "Vahid AMIRI",
+               "position" : "Midfield",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "Mehdi TAREMI",
+               "position" : "Forward",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Alireza JAHANBAKHSH",
+               "position" : "Forward",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "Majid HOSSEINI",
+               "position" : "Defender",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "Sardar AZMOUN",
+               "position" : "Forward",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "Ramin REZAEIAN",
+               "position" : "Defender",
+               "shirt_number" : 23
+            },
+            {
+               "captain" : false,
+               "name" : "Mahdi TORABI",
+               "position" : "Midfield",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "Milad MOHAMMADI",
+               "position" : "Defender",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "Masoud SHOJAEI",
+               "position" : "Midfield",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "Karim ANSARIFARD",
+               "position" : "Forward",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "Rashid MAZAHERI",
+               "position" : "Goalie",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Mohammad Reza KHANZADEH",
+               "position" : "Defender",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "Saman GHODDOS",
+               "position" : "Forward",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "Pejman MONTAZERI",
+               "position" : "Defender",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Reza GHOOCHANNEJHAD",
+               "position" : "Forward",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "Ashkan DEJAGAH",
+               "position" : "Forward",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "Amir ABEDZADEH",
+               "position" : "Goalie",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "Roozbeh CHESHMI",
+               "position" : "Defender",
+               "shirt_number" : 4
+            }
+         ]
+      },
+      {
+         "country" : "Sweden",
+         "fifa_code" : "SWE",
+         "group_id" : 6,
+         "group_letter" : "F",
+         "id" : 23,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "Robin OLSEN",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "Victor LINDELOF",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : true,
+               "name" : "Andreas GRANQVIST",
+               "position" : "Defender",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "Ludwig AUGUSTINSSON",
+               "position" : "Defender",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : false,
+               "name" : "Sebastian LARSSON",
+               "position" : "Midfield",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "Albin EKDAL",
+               "position" : "Midfield",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "Marcus BERG",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "Emil FORSBERG",
+               "position" : "Midfield",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "Emil KRAFTH",
+               "position" : "Defender",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "Viktor CLAESSON",
+               "position" : "Midfield",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Ola TOIVONEN",
+               "position" : "Forward",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "Martin OLSSON",
+               "position" : "Defender",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "John GUIDETTI",
+               "position" : "Forward",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "Karl-Johan JOHNSSON",
+               "position" : "Goalie",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Gustav SVENSSON",
+               "position" : "Midfield",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "Filip HELANDER",
+               "position" : "Defender",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "Oscar HILJEMARK",
+               "position" : "Midfield",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Pontus JANSSON",
+               "position" : "Defender",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "Marcus ROHDEN",
+               "position" : "Midfield",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "Jimmy DURMAZ",
+               "position" : "Midfield",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "Isaac Kiese THELIN",
+               "position" : "Forward",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "Kristoffer NORDFELDT",
+               "position" : "Goalie",
+               "shirt_number" : 23
+            },
+            {
+               "captain" : false,
+               "name" : "Mikael LUSTIG",
+               "position" : "Defender",
+               "shirt_number" : 2
+            }
+         ]
+      },
+      {
+         "country" : "Australia",
+         "fifa_code" : "AUS",
+         "group_id" : 3,
+         "group_letter" : "C",
+         "id" : 10,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "Mathew RYAN",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "Mark MILLIGAN",
+               "position" : "Defender",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "Mathew LECKIE",
+               "position" : "Forward",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "Tomi JURIC",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "Robbie KRUSE",
+               "position" : "Forward",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "Aaron MOOY",
+               "position" : "Midfield",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : true,
+               "name" : "Mile JEDINAK",
+               "position" : "Midfield",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Aziz BEHICH",
+               "position" : "Defender",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "Joshua RISDON",
+               "position" : "Defender",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "Trent SAINSBURY",
+               "position" : "Defender",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "Tom ROGIC",
+               "position" : "Midfield",
+               "shirt_number" : 23
+            },
+            {
+               "captain" : false,
+               "name" : "Milos DEGENEK",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "James MEREDITH",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "Tim CAHILL",
+               "position" : "Forward",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "Matthew JURMAN",
+               "position" : "Defender",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : false,
+               "name" : "Massimo LUONGO",
+               "position" : "Midfield",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "Andrew NABBOUT",
+               "position" : "Forward",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "Brad JONES",
+               "position" : "Goalie",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Jamie MacLAREN",
+               "position" : "Forward",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "Daniel ARZANI",
+               "position" : "Forward",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Danny VUKOVIC",
+               "position" : "Goalie",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "Dimitrios PETRATOS",
+               "position" : "Forward",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "Jackson IRVINE",
+               "position" : "Midfield",
+               "shirt_number" : 22
+            }
+         ]
+      },
+      {
+         "country" : "Peru",
+         "fifa_code" : "PER",
+         "group_id" : 3,
+         "group_letter" : "C",
+         "id" : 11,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "Pedro GALLESE",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : true,
+               "name" : "Alberto RODRIGUEZ",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "Miguel TRAUCO",
+               "position" : "Defender",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : false,
+               "name" : "Christian CUEVA",
+               "position" : "Midfield",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "Jefferson FARFAN",
+               "position" : "Forward",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "Renato TAPIA",
+               "position" : "Midfield",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "Christian RAMOS",
+               "position" : "Defender",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Luis ADVINCULA",
+               "position" : "Defender",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Andre CARRILLO",
+               "position" : "Forward",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "Yoshimar YOTUN",
+               "position" : "Midfield",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "Edison FLORES",
+               "position" : "Forward",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "Aldo CORZO",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "Anderson SANTAMARIA",
+               "position" : "Defender",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "Miguel ARAUJO",
+               "position" : "Defender",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "Paolo HURTADO",
+               "position" : "Midfield",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "Paolo GUERRERO",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "Raul RUIDIAZ",
+               "position" : "Forward",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "Carlos CACEDA",
+               "position" : "Goalie",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Andy POLO",
+               "position" : "Midfield",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "Wilder CARTAGENA",
+               "position" : "Midfield",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "Jose CARVALLO",
+               "position" : "Goalie",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "Nilson LOYOLA",
+               "position" : "Defender",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "Pedro AQUINO",
+               "position" : "Midfield",
+               "shirt_number" : 23
+            }
+         ]
+      },
+      {
+         "country" : "Iceland",
+         "fifa_code" : "ISL",
+         "group_id" : 4,
+         "group_letter" : "D",
+         "id" : 14,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "Hannes HALLDORSSON",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "Birkir SAEVARSSON",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "Sverrir INGASON",
+               "position" : "Defender",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "Ragnar SIGURDSSON",
+               "position" : "Defender",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : false,
+               "name" : "Johann GUDMUNDSSON",
+               "position" : "Midfield",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "Birkir BJARNASON",
+               "position" : "Midfield",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "Gylfi SIGURDSSON",
+               "position" : "Midfield",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "Alfred FINNBOGASON",
+               "position" : "Forward",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : true,
+               "name" : "Aron GUNNARSSON",
+               "position" : "Midfield",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Hordur MAGNUSSON",
+               "position" : "Defender",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "Emil HALLFREDSSON",
+               "position" : "Midfield",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "Samuel FRIDJONSSON",
+               "position" : "Midfield",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "Albert GUDMUNDSSON",
+               "position" : "Midfield",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "Bjorn SIGURDARSON",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "Frederik SCHRAM",
+               "position" : "Goalie",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Runar RUNARSSON",
+               "position" : "Goalie",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "Kari ARNASON",
+               "position" : "Defender",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "Holmar EYJOLFSSON",
+               "position" : "Defender",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Olafur SKULASON",
+               "position" : "Midfield",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "Rurik GISLASON",
+               "position" : "Midfield",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "Arnor TRAUSTASON",
+               "position" : "Midfield",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "Jon BODVARSSON",
+               "position" : "Forward",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "Ari SKULASON",
+               "position" : "Defender",
+               "shirt_number" : 23
+            }
+         ]
+      },
+      {
+         "country" : "Nigeria",
+         "fifa_code" : "NGA",
+         "group_id" : 4,
+         "group_letter" : "D",
+         "id" : 16,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "Francis UZOHO",
+               "position" : "Goalie",
+               "shirt_number" : 23
+            },
+            {
+               "captain" : false,
+               "name" : "Bryan IDOWU",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "Wilfred NDIDI",
+               "position" : "Midfield",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "William EKONG",
+               "position" : "Defender",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "Leon BALOGUN",
+               "position" : "Defender",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : false,
+               "name" : "Ahmed MUSA",
+               "position" : "Forward",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "Oghenekaro ETEBO",
+               "position" : "Midfield",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : true,
+               "name" : "John Obi MIKEL",
+               "position" : "Midfield",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "Victor MOSES",
+               "position" : "Forward",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "Kelechi IHEANACHO",
+               "position" : "Forward",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "Kenneth OMERUO",
+               "position" : "Defender",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "Ikechukwu EZENWA",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "Elderson ECHIEJILE",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "Odion IGHALO",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "Abdullahi SHEHU",
+               "position" : "Defender",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Simeon NWANKWO",
+               "position" : "Forward",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "Joel OBI",
+               "position" : "Midfield",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Daniel AKPEYI",
+               "position" : "Goalie",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "Ogenyi ONAZI",
+               "position" : "Midfield",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Alex IWOBI",
+               "position" : "Forward",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "John OGU",
+               "position" : "Midfield",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "Chidozie AWAZIEM",
+               "position" : "Defender",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "Tyronne EBUEHI",
+               "position" : "Defender",
+               "shirt_number" : 21
+            }
+         ]
+      },
+      {
+         "country" : "Russia",
+         "fifa_code" : "RUS",
+         "group_id" : 1,
+         "group_letter" : "A",
+         "id" : 1,
+         "player" : [
+            {
+               "captain" : true,
+               "name" : "Igor AKINFEEV",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : false,
+               "name" : "MARIO FERNANDES",
+               "position" : "Defender",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "Ilya KUTEPOV",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "Sergey IGNASHEVICH",
+               "position" : "Defender",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "Denis CHERYSHEV",
+               "position" : "Midfield",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : false,
+               "name" : "Daler KUZIAEV",
+               "position" : "Midfield",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "Roman ZOBNIN",
+               "position" : "Midfield",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "Fedor KUDRIASHOV",
+               "position" : "Defender",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "Aleksandr GOLOVIN",
+               "position" : "Midfield",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Alexander SAMEDOV",
+               "position" : "Midfield",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "Artem DZYUBA",
+               "position" : "Forward",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "Andrey SEMENOV",
+               "position" : "Defender",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "Iury GAZINSKY",
+               "position" : "Midfield",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "Alan DZAGOEV",
+               "position" : "Midfield",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "Fedor SMOLOV",
+               "position" : "Forward",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "Andrei LUNEV",
+               "position" : "Goalie",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Vladimir GRANAT",
+               "position" : "Defender",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "Alexey MIRANCHUK",
+               "position" : "Midfield",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Anton MIRANCHUK",
+               "position" : "Midfield",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "Yury ZHIRKOV",
+               "position" : "Midfield",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "Vladimir GABULOV",
+               "position" : "Goalie",
+               "shirt_number" : 20
+            },
+            {
+               "captain" : false,
+               "name" : "Aleksandr EROKHIN",
+               "position" : "Midfield",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "Igor SMOLNIKOV",
+               "position" : "Defender",
+               "shirt_number" : 23
+            }
+         ]
+      },
+      {
+         "country" : "Denmark",
+         "fifa_code" : "DEN",
+         "group_id" : 3,
+         "group_letter" : "C",
+         "id" : 12,
+         "player" : [
+            {
+               "captain" : false,
+               "name" : "Kasper  SCHMEICHEL",
+               "position" : "Goalie",
+               "shirt_number" : 1
+            },
+            {
+               "captain" : true,
+               "name" : "Simon KJAER",
+               "position" : "Defender",
+               "shirt_number" : 4
+            },
+            {
+               "captain" : false,
+               "name" : "Andreas CHRISTENSEN",
+               "position" : "Defender",
+               "shirt_number" : 6
+            },
+            {
+               "captain" : false,
+               "name" : "Thomas DELANEY",
+               "position" : "Midfield",
+               "shirt_number" : 8
+            },
+            {
+               "captain" : false,
+               "name" : "Christian ERIKSEN",
+               "position" : "Midfield",
+               "shirt_number" : 10
+            },
+            {
+               "captain" : false,
+               "name" : "Martin BRAITHWAITE",
+               "position" : "Forward",
+               "shirt_number" : 11
+            },
+            {
+               "captain" : false,
+               "name" : "Mathias  JORGENSEN",
+               "position" : "Defender",
+               "shirt_number" : 13
+            },
+            {
+               "captain" : false,
+               "name" : "Henrik DALSGAARD",
+               "position" : "Defender",
+               "shirt_number" : 14
+            },
+            {
+               "captain" : false,
+               "name" : "Jens Stryger LARSEN",
+               "position" : "Defender",
+               "shirt_number" : 17
+            },
+            {
+               "captain" : false,
+               "name" : "Andreas CORNELIUS",
+               "position" : "Forward",
+               "shirt_number" : 21
+            },
+            {
+               "captain" : false,
+               "name" : "Pione SISTO",
+               "position" : "Forward",
+               "shirt_number" : 23
+            },
+            {
+               "captain" : false,
+               "name" : "Michael KROHN-DEHLI",
+               "position" : "Midfield",
+               "shirt_number" : 2
+            },
+            {
+               "captain" : false,
+               "name" : "Jannik VESTERGAARD",
+               "position" : "Defender",
+               "shirt_number" : 3
+            },
+            {
+               "captain" : false,
+               "name" : "Jonas KNUDSEN",
+               "position" : "Defender",
+               "shirt_number" : 5
+            },
+            {
+               "captain" : false,
+               "name" : "William KVIST",
+               "position" : "Midfield",
+               "shirt_number" : 7
+            },
+            {
+               "captain" : false,
+               "name" : "Nicolai JORGENSEN",
+               "position" : "Forward",
+               "shirt_number" : 9
+            },
+            {
+               "captain" : false,
+               "name" : "Kasper DOLBERG",
+               "position" : "Forward",
+               "shirt_number" : 12
+            },
+            {
+               "captain" : false,
+               "name" : "Viktor FISCHER",
+               "position" : "Forward",
+               "shirt_number" : 15
+            },
+            {
+               "captain" : false,
+               "name" : "Jonas LOSSL",
+               "position" : "Goalie",
+               "shirt_number" : 16
+            },
+            {
+               "captain" : false,
+               "name" : "Lukas LERAGER",
+               "position" : "Midfield",
+               "shirt_number" : 18
+            },
+            {
+               "captain" : false,
+               "name" : "Lasse SCHONE",
+               "position" : "Midfield",
+               "shirt_number" : 19
+            },
+            {
+               "captain" : false,
+               "name" : "Frederik RONNOW",
+               "position" : "Goalie",
+               "shirt_number" : 22
+            },
+            {
+               "captain" : false,
+               "name" : "Yussuf Yurary POULSEN",
+               "position" : "Forward",
+               "shirt_number" : 20
+            }
+         ]
+      }
+   ]
+}

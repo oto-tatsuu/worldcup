@@ -215,10 +215,16 @@ public:
 int main()
 {
 	DataBase d;
-	d.Update(d.match[20].GetStartTime());
+	d.Update(d.match[63].GetStartTime()+10000);
 	//d.show_match_result();
 	//d.show_team();
-	for (int i = 0; i < 8; i++) 
+	Player**p=d.GetshoterRank();
+	for (int i = 0; i < 736; i++) 
+	{
+		std::cout << p[i]->GetName() << ":" << p[i]->GetGoal_num() << std::endl;
+	}
+	d.sort.DeleteArray(p,736);
+	/*for (int i = 0; i < 8; i++) 
 	{
 		Team**point_rank = d.GetPointRank(i);
 		char c = 'A';
@@ -228,9 +234,10 @@ int main()
 		{
 			std::cout<<j<<":"<< point_rank[j]->GetName()<< point_rank[j]->GetJudgePoint().point<<std::endl;
 		}
-	}
-	
+	}*/
+
 	system("pause");
+	
 	
 }
 

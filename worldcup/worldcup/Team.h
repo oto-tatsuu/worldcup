@@ -59,6 +59,7 @@ public:
 	JudgePoint GetJudgePoint();
 	string GetName();
 	void SetName(string name);
+	inline int GetID(){ return t_id; }
 private:
 	string name;
 	int t_id;

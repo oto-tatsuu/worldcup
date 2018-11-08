@@ -54,6 +54,8 @@ private:
 
 	int home_score;
 	int away_score;
+	int home_penalties;
+	int away_penalties;
 	int home_card;
 	int away_card;
 	int winner;

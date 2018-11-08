@@ -234,33 +234,12 @@ time_t DataBase::strTotime(string str)
 	time.tm_mon = std::stoi(temp, &sz);
 	temp = temp.substr(++sz);
 	time.tm_mday = std::stoi(temp, &sz);
-	if (temp.size() > sz) 
-	{
-		temp = temp.substr(++sz);
-		time.tm_hour = std::stoi(temp, &sz);
-		if (temp.size() > sz) 
-		{
-			temp = temp.substr(++sz);
-			time.tm_min = std::stoi(temp, &sz);
-			if (temp.size() > sz)
-			{
-				temp = temp.substr(++sz);
-				time.tm_sec = std::stoi(temp, &sz);
-			}
-			else 
-			{
-				time.tm_sec = 0;
-			}
-		}
-		else 
-		{
-			time.tm_min = time.tm_sec = 0;
-		}	
-	}
-	else 
-	{
-		time.tm_hour = time.tm_min = time.tm_sec = 0;
-	}
+	temp = temp.substr(++sz);
+	time.tm_hour = std::stoi(temp, &sz);
+	temp = temp.substr(++sz);
+	time.tm_min = std::stoi(temp, &sz);
+	temp = temp.substr(++sz);
+	time.tm_sec = std::stoi(temp, &sz);
 	return mktime(&time);
 }
 
@@ -298,48 +277,6 @@ void DataBase::show_team()
 	{
 		std::cout << "team_id:" << team[i].t_id << "\tcountry:" << team[i].name << "\tpoint:"<<team[i].jp.point<<std::endl;
 	}
-}
-
-int DataBase::GetWin(int t_id)
-{
-	int i = 0;
-	int r = 0;
-	for (auto e = gamemap.FirstEdge(t_id); i < 3; ++e) 
-	{
-		int m = *e;
-		if (match[m].winner == t_id)
-			r++;
-		i++;
-	}
-	return r;
-}
-
-int DataBase::GetLose(int t_id)
-{
-	int i = 0;
-	int r = 0;
-	for (auto e = gamemap.FirstEdge(t_id); i < 3; ++e)
-	{
-		int m = *e;
-		if (match[m].winner != t_id&& match[m].winner != -1)
-			r++;
-		i++;
-	}
-	return r;
-}
-
-int DataBase::GetDraw(int t_id)
-{
-	int i = 0;
-	int r = 0;
-	for (auto e = gamemap.FirstEdge(t_id); i < 3; ++e)
-	{
-		int m = *e;
-		if (match[m].winner == -1)
-			r++;
-		i++;
-	}
-	return r;
 }
 
 Team ** DataBase::GetPointRank(int group)

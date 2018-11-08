@@ -14,14 +14,12 @@ public:
 	~DataBase();
 	//射手榜
 public:
-	
+	int*GetshoterRank();//
 private:
 	int Getshot(int p_id);//获取球员射门数
 public:
 	//积分榜
-	int GetWin(int t_id);
-	int GetLose(int t_id);
-	int GetDraw(int t_id);
+	int GetPoint(int t_id);//获得某国家积分
 	Team** GetPointRank(int group);//获得某小组积分排名
 	//比赛结果
 public:

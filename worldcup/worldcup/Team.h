@@ -58,7 +58,6 @@ public:
 	~Team();
 	JudgePoint GetJudgePoint();
 	string GetName();
-	int GetID() { return t_id; }
 	void SetName(string name);
 private:
 	string name;

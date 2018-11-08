@@ -129,17 +129,17 @@ inline void Algorithm::Merge(Record ** array, Member function, Record ** t, int 
 	{
 		if (descending)
 		{
-			if ((t[index1]->*function)() < (t[index2]->*function)())
-				array[i] = t[index2--];
-			else
+			if ((t[index1]->*function)() >= (t[index2]->*function)())
 				array[i] = t[index1++];
+			else
+				array[i] = t[index2--];
 		}
 		else 
 		{
-			if ((t[index1]->*function)() > (t[index2]->*function)())
-				array[i] = t[index2--];
-			else
+			if ((t[index1]->*function)() <= (t[index2]->*function)())
 				array[i] = t[index1++];
+			else
+				array[i] = t[index2--];
 		}
 	}
 }

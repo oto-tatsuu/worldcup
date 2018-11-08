@@ -2,7 +2,7 @@
 
 
 
-Match::Match():match_id(-1),home_id(-1),away_id(-1),home_score(0),away_score(0),status(not_beginning),winner(-1), home_penalties(0), away_penalties(0)
+Match::Match():match_id(-1),home_id(-1),away_id(-1),home_score(0),away_score(0),status(not_beginning),winner(-1)
 {
 	time = 90 * 60;
 }
@@ -20,13 +20,7 @@ int Match::JudgeWinner()
 		return home_id;
 	else if (home_score < away_score)
 		return away_id;
-	else if (home_penalties > away_penalties)
-		return home_id;
-	else if (home_penalties < away_penalties)
-		return away_id;
-	else
-		return -1;
-
+	else return -1;
 }
 
 
@@ -106,8 +100,6 @@ void Match::ClearRecord()
 	away_score = 0; 
 	home_card = 0;
 	away_card = 0;
-	home_penalties = 0;
-	away_penalties = 0;
 	status = not_beginning;
 }
 

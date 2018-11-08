@@ -6,27 +6,15 @@
 #include<queue>
 #include"Player.h"
 #include"Algorithm.h"
-#include"json/json.h"
 using std::queue;
 class DataBase
 {
-	class KnockOutTree 
-	{
-		friend class DataBase;
-	private:
-		int home_last_match;
-		int away_last_match;
-		bool src_from;//true来自淘汰赛,false来自小组赛
-	public:
-		KnockOutTree();
-		~KnockOutTree();
-	};
 public:
 	DataBase();
 	~DataBase();
 	//射手榜
 public:
-	Player**GetshoterRank();//
+	int*GetshoterRank();//
 private:
 	int Getshot(int p_id);//获取球员射门数
 public:
@@ -43,21 +31,18 @@ public:
 	void Update(time_t now);
 	time_t strTotime(string str);
 private:
-	void ReadMatchBaseInfo(Json::Value & match);
-	void ReadTeamBaseInfo(Json::Value & team);
-	void ReadPlayerBaseIndo(Json::Value & player);
+	void ReadMatchBaseInfo();
+	void ReadTeamBaseInfo();
 	void CreateGameMap();
-	void CreateKnockoutTree();
 	void UpdateTeam(int t_id);
 	void ClearPoint();
-	void Update(time_t now, Json::Value & match);
 	void AddGame(int home, int away, int num);
+
 private:
 public:
 	Map<int,int> gamemap;//小组赛
+	queue<int> knockour;//淘汰赛
 	Team*team;//[]参赛的全部球队32
-	Team**knockout_team;//16强
-	KnockOutTree*knockout_tree;//16强比赛分布
 	Player*player;//[]参赛的全部球员32*23
 	Match*match;//[]所有比赛64
 	Algorithm sort;

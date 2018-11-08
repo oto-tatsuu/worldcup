@@ -16,6 +16,7 @@ public:
 	Player();
 	~Player();
 	int GetGoal_num();
+	int GetID() { return p_id; };
 	Goal GetGoal();
 	string GetName();
 private:

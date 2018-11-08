@@ -17,6 +17,7 @@ int Player::GetGoal_num()
 }
 
 
+
 Player::Goal Player::GetGoal()
 {
 	return goal;

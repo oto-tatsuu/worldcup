@@ -55,16 +55,24 @@ int main()
 					}
 					d.sort.DeleteArray(t, 4);
 				}
+				break;
+			}
+			case 2: 
+			{
+				Player**p = d.GetshoterRank();
+				for (int i = 0; i < 50; i++)
+				{
+					int t_id = p[i]->GetID()/23;
+					std::cout << p[i]->GetName() << ":" <<  std::endl;
+					std::cout << "Çò¶Ó£º\t" << d.team[t_id].GetID()<<"\t±àºÅ£º\t"<< p[i]->GetID() % 23<<"\tÉäÃÅ:\t"<<p[i]->GetGoal_num()<<std::endl;
+				}
+				d.sort.DeleteArray(p, 736);
+				break;
 			}
 		}
 		if (out)break;
 	}
-	Player**p=d.GetshoterRank();
-	for (int i = 0; i < 736; i++) 
-	{
-		std::cout << p[i]->GetName() << ":" << p[i]->GetGoal_num() << std::endl;
-	}
-	d.sort.DeleteArray(p,736);
+	
 	
 
 	system("pause");

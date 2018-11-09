@@ -22,8 +22,8 @@ int main()
 {
 	DataBase d;
 	std::cout << "输入时间:";
-	string str;
-	std::cin >> str;
+	string str="2018-7-16";
+	//std::cin >> str;
 	time_t time = d.strTotime(str);
 	d.Update(time);
 	bool out = false;
@@ -71,7 +71,7 @@ int main()
 			}
 			case 3:
 			{
-				for (int i = 0; i < 64; i++) 
+				/*for (int i = 0; i < 64; i++) 
 				{
 					int home = d.match[i].GetTeamID(HOME);
 					int away = d.match[i].GetTeamID(AWAY);
@@ -79,8 +79,8 @@ int main()
 					std::cout << "主队：" << d.team[home].GetName() << std::endl;
 					std::cout << "客队：" << d.team[away].GetName() << std::endl;
 					std::cout << "比分：" << d.match[i].GetScore(HOME)<<":"<< d.match[i].GetScore(AWAY)<<"\n" << std::endl;
-					std::cout << "输入0退出，输入比赛编号查看详细信息";
-				}
+				}*/
+				std::cout << "输入0退出，输入比赛编号查看详细信息";
 				int b;
 				std::cin >> b;
 				if (b) 

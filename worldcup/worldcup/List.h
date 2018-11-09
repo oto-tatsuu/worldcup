@@ -47,6 +47,7 @@ private:
 public:
 	List();
 	List(List<T>&src);
+	List(List<T>&&src);
 	~List();
 	List<T>&operator=(List&rsh);
 	List_iter<T> begin();
@@ -168,7 +169,13 @@ inline List<T>::List(List<T>& src)
 	last = first;
 	assign(src.begin(),src.end() );
 }
-
+template<class T>
+inline List<T>::List(List<T>&& src)
+{
+	first = new ListNode<T>();
+	last = first;
+	assign(src.begin(), src.end());
+}
 template<class T>
 inline List<T>::~List()
 {

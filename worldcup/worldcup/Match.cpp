@@ -218,6 +218,9 @@ string Match::toString()
 		oss << "点球：\t" << home_penalties << ":" << away_penalties << "\n";
 	}
 		string win;
+		std::ostringstream home,away;
+		home <<"主队事件:\n";
+		away <<"客队事件:\n";
 	if (status == completed)
 	{
 		if (winner == home_id)
@@ -232,10 +235,45 @@ string Match::toString()
 		win = "敬请期待";
 	}
 	oss << "比赛结果:" << win<<"\n";
-	/*if (status != not_beginning) 
+	if (status != not_beginning) 
 	{
-
-	}*/
+		for (auto p_it = home_player_events.begin(); p_it != home_player_events.end(); ++p_it)
+		{
+			auto play = (*p_it).events;
+			for (auto e_it = play.begin(); e_it != play.end(); ++e_it) 
+			{
+				string eve;
+				switch ((*e_it).event_type) 
+				{
+				case goal:eve = "进球"; break;
+				case goal_penalty:eve = "点球"; break; 
+				case goal_own:eve = "乌龙"; break;
+				case yellowcard:eve = "黄牌"; break; 
+				case redcard:eve = "红牌"; break;
+				}
+				home << (*p_it).p_id << ":" << eve << "\t时间" << (*e_it).time << "min\n";
+			}
+		}
+		for (auto p_it = away_player_events.begin(); p_it != away_player_events.end(); ++p_it)
+		{
+			auto play = (*p_it).events;
+			for (auto e_it = play.begin(); e_it != play.end(); ++e_it)
+			{
+				string eve;
+				switch ((*e_it).event_type)
+				{
+				case goal:eve = "进球"; break;
+				case goal_penalty:eve = "点球"; break;
+				case goal_own:eve = "乌龙"; break;
+				case yellowcard:eve = "黄牌"; break;
+				case redcard:eve = "红牌"; break;
+				}
+				away << (*p_it).p_id << ":" << eve << "\t时间" << (*e_it).time << "min\n";
+			}
+		}
+	}
+	oss << home.str();
+	oss << away.str();
 	r = oss.str();
 	return r;
 }

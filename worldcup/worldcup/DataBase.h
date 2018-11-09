@@ -67,6 +67,7 @@ public:
 	//test
 	void show_gamemap();
 	void show_match_result();
+	void show_match(int m_id);
 	void show_team();
 };
 

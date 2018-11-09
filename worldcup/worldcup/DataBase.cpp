@@ -26,7 +26,7 @@ DataBase::DataBase():gamemap(32)
 		ReadPlayerBaseIndo(value["player"]);
 		CreateGameMap();
 		CreateKnockoutTree();
-		//Update(0,value["match"]);
+		Update(0,value["match"]);
 	}
 	
 	
@@ -456,7 +456,7 @@ void DataBase::ReadMatchBaseInfo(Json::Value & m)
 		match[i].home_name = m[i]["home_team_country"].asString();
 		match[i].away_name =m[i]["away_team_country"].asString();
 
-		match[i].match_id = i;
+		match[i].m_id = i;
 		match[i].start_time = strTotime(m[i]["datetime"].asString());
 	}
 }
@@ -513,6 +513,11 @@ void DataBase::show_match_result()
 	{
 		std::cout <<"match_id:"<<i<<"\t"<< match[i].toString()<<std::endl;
 	}
+}
+
+void DataBase::show_match(int m_id)
+{
+	
 }
 
 void DataBase::show_team()

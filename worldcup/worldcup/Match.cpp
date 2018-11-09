@@ -2,7 +2,7 @@
 
 
 
-Match::Match():match_id(-1),home_id(-1),away_id(-1),home_score(0),away_score(0),status(not_beginning),winner(-1), home_penalties(0), away_penalties(0)
+Match::Match():m_id(-1),home_id(-1),away_id(-1),home_score(0),away_score(0),status(not_beginning),winner(-1), home_penalties(0), away_penalties(0)
 {
 	time = 90 * 60;
 }
@@ -72,19 +72,44 @@ time_t Match::GetStartTime()
 	return start_time;
 }
 
+int Match::GetID()
+{
+	return m_id;
+}
+
 int Match::GetWinner()
 {
 	return winner;
 }
 
-int Match::GetHomeID()
+int Match::GetTeamID(bool t_type)
 {
-	return home_id;
+	if (t_type)
+		return home_id;
+	else
+		return away_id;
 }
 
-int Match::GetAwayID()
+int Match::GetScore(bool t_type)
 {
-	return away_id;
+	if (t_type)
+		return home_score;
+	else
+		return away_score;
+}
+
+
+
+string Match::GetStatus()
+{
+	switch (status)
+	{
+		case not_beginning:return "not_beginning";
+		case in_the_game:return "in_the_game"; 
+		case completed:return "completed";
+		default:break;
+	}
+	return "";
 }
 
 void Match::SetHomeID(int t_id)
@@ -184,9 +209,34 @@ void Match::Update(time_t now)
 string Match::toString()
 {
 	string r;
-	r += std::to_string( home_id)+":"+home_name+":"+std::to_string(home_score)+"\t\t";
-	r += std::to_string(away_id) +":"+ away_name + ":" + std::to_string(away_score)+"\n";
-	r += "winner:"+ std::to_string(winner);
+	std::ostringstream oss;
+	
+	oss << "比赛编号：" << m_id +1<< "\t主队：" << home_name << "\t客队：" << away_name << "\n";
+	oss << "比分：\t" << home_score << ":" << away_score<<"\n";
+	if (status == completed && m_id >= 48 && home_score == away_score) 
+	{
+		oss << "点球：\t" << home_penalties << ":" << away_penalties << "\n";
+	}
+		string win;
+	if (status == completed)
+	{
+		if (winner == home_id)
+			win += "胜者："+home_name;
+		else if (winner == away_id)
+			win += "胜者："+away_name;
+		else if (winner == -1)
+			win = "平局";
+	}
+	else
+	{
+		win = "敬请期待";
+	}
+	oss << "比赛结果:" << win<<"\n";
+	/*if (status != not_beginning) 
+	{
+
+	}*/
+	r = oss.str();
 	return r;
 }
 

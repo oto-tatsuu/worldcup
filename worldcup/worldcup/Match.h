@@ -2,6 +2,7 @@
 #include"GameRecord.h"
 #include"List.h"
 #include<string>
+#include<sstream>
 #include<time.h>
 #define HOME true
 #define AWAY false
@@ -44,7 +45,7 @@ public:
 	Match();
 	~Match();
 private:
-	int match_id;
+	int m_id;
 	int home_id;
 	int away_id;
 	string home_name;
@@ -68,9 +69,11 @@ public:
 	void AddPlayer(PlayerEvent * newplayer, bool team);
 	void AddEvent(int p_id, Event * event, bool team);
 	time_t GetStartTime();
+	int GetID();
 	int GetWinner();
-	int GetHomeID();
-	int GetAwayID();
+	int GetTeamID(bool t_type);
+	int GetScore(bool t_type);
+	string GetStatus();
 	void SetHomeID(int t_id);
 	void SetAwayID(int t_id);
 	void ClearRecord();

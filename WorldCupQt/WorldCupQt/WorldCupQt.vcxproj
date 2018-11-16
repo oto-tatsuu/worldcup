@@ -60,7 +60,7 @@
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
     </ClCompile>
     <Link>
-      <SubSystem>Windows</SubSystem>
+      <SubSystem>Console</SubSystem>
       <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
       <AdditionalLibraryDirectories>$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -113,7 +113,11 @@
     </QtRcc>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DataBase.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Match.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Team.cpp" />
     <ClCompile Include="WorldCupQt.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -124,6 +128,15 @@
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="WorldCupQt.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Algorithm.h" />
+    <ClInclude Include="DataBase.h" />
+    <ClInclude Include="List.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="Match.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Team.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

@@ -28,6 +28,15 @@
       <Extensions>moc;h;cpp</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
+    <Filter Include="Header Files\datastruct">
+      <UniqueIdentifier>{cca7f94d-a5e7-4247-a613-9b22261c0ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\data">
+      <UniqueIdentifier>{799b2742-a25a-4cc8-9c64-91c008a160d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\data">
+      <UniqueIdentifier>{682301f7-0b6a-4de7-a5f2-aa3c6d0f883d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -35,6 +44,18 @@
     </ClCompile>
     <ClCompile Include="WorldCupQt.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBase.cpp">
+      <Filter>Source Files\data</Filter>
+    </ClCompile>
+    <ClCompile Include="Match.cpp">
+      <Filter>Source Files\data</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\data</Filter>
+    </ClCompile>
+    <ClCompile Include="Team.cpp">
+      <Filter>Source Files\data</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -51,5 +72,28 @@
     <QtRcc Include="WorldCupQt.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Algorithm.h">
+      <Filter>Header Files\datastruct</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Header Files\datastruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files\datastruct</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBase.h">
+      <Filter>Header Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="Match.h">
+      <Filter>Header Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="Team.h">
+      <Filter>Header Files\data</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -68,12 +68,12 @@ private:
 public:
 	void AddPlayer(PlayerEvent * newplayer, bool team);
 	void AddEvent(int p_id, Event * event, bool team);
-	time_t GetStartTime();
 	int GetID();
 	int GetWinner();
 	int GetTeamID(bool t_type);
 	int GetScore(bool t_type);
 	string GetStatus();
+	string GetStartTime();
 	void SetHomeID(int t_id);
 	void SetAwayID(int t_id);
 	void ClearRecord();

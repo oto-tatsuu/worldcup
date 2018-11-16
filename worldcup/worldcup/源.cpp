@@ -21,15 +21,15 @@ using std::string;
 int main()
 {
 	DataBase d;
-	std::cout << "输入时间:";
-	string str="2018-7-16";
+	//std::cout << "输入时间:";
+	string str="2018-7-15";
 	//std::cin >> str;
 	time_t time = d.strTotime(str);
 	d.Update(time);
 	bool out = false;
 	while (true) 
 	{
-		std::cout << "输入0退出，1积分榜，2射手榜，3比赛信息";
+		std::cout << "输入0退出，1积分榜，2射手榜，3比赛信息,4更改时间";
 		int a;
 		std::cin >> a;
 		switch (a)
@@ -71,26 +71,37 @@ int main()
 			}
 			case 3:
 			{
-				/*for (int i = 0; i < 64; i++) 
+				for (int i = 0; i < 64; i++) 
 				{
 					int home = d.match[i].GetTeamID(HOME);
 					int away = d.match[i].GetTeamID(AWAY);
-					std::cout <<"编号：" << i+1<<"\t状态："<<d.match[i].GetStatus() <<std::endl;
+					std::cout <<"编号：" << i+1<<"\t开始时间:"<< d.match[i] .GetStartTime()<<"\t状态："<<d.match[i].GetStatus() <<std::endl;
 					std::cout << "主队：" << d.team[home].GetName() << std::endl;
 					std::cout << "客队：" << d.team[away].GetName() << std::endl;
 					std::cout << "比分：" << d.match[i].GetScore(HOME)<<":"<< d.match[i].GetScore(AWAY)<<"\n" << std::endl;
-				}*/
-				std::cout << "输入0退出，输入比赛编号查看详细信息";
-				int b;
-				std::cin >> b;
-				if (b) 
-				{
-					std::cout<<d.match[b-1].toString();
 				}
-				else
-				{
-					break;
+				while (true) {
+					std::cout << "输入0退出，输入比赛编号查看详细信息";
+					int b;
+					std::cin >> b;
+					if (b)
+					{
+						std::cout << d.match[b - 1].toString();
+					}
+					else
+					{
+						break;
+					}
 				}
+				break;
+			}
+			case 4:
+			{
+				std::cout << "输入时间:";
+				std::cin >> str;
+				time = d.strTotime(str);
+				d.Update(time);
+				std::cout << "更改完成:";
 				break;
 			}
 			default:break;

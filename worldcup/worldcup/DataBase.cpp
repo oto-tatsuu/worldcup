@@ -52,7 +52,7 @@ void DataBase::Update(time_t now)
 	Reader reader;
 	Value value;
 	ifstream ifs;
-	ifs.open("info.json");
+	ifs.open("info2.json");
 	bool ok = reader.parse(ifs,value);
 	Value root = value["match"];
 	if (ok) 
@@ -312,9 +312,9 @@ void DataBase::Update(time_t now, Json::Value & root)
 		}
 		match[i].home_id = home;
 		match[i].away_id = away;
-		if (home != -1)
+		//if (home != -1)
 			match[i].home_name = team[home].name;
-		if (away != -1)
+		//if (away != -1)
 			match[i].away_name = team[away].name;
 		time_t match_start = match[i].start_time;
 		int time = match[i].time;
@@ -335,8 +335,8 @@ void DataBase::Update(time_t now, Json::Value & root)
 				match[i].home_penalties = root[i]["home_penalties"].asInt();
 				match[i].away_penalties = root[i]["away_penalties"].asInt();
 			}
-			if (team[home].name != root[i]["home_team_country"].asString() || team[away].name != root[i]["away_team_country"].asString())
-				continue;
+			//if (team[home].name != root[i]["home_team_country"].asString() || team[away].name != root[i]["away_team_country"].asString())
+				//continue;
 			for (unsigned int j = 0; !root[i]["home_team_events"][j].empty(); j++)
 			{
 				int p_id = root[i]["home_team_events"][j]["id"].asInt();

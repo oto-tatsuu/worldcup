@@ -67,10 +67,7 @@ void Match::AddEvent(int p_id, Event * event, bool team)
 }
 
 
-time_t Match::GetStartTime()
-{
-	return start_time;
-}
+
 
 int Match::GetID()
 {
@@ -111,6 +108,17 @@ string Match::GetStatus()
 	}
 	return "";
 }
+#include<iomanip>
+string Match::GetStartTime()
+{
+		std::ostringstream oss;
+		string r;
+		tm t;
+		localtime_s(&t,&start_time);
+		oss << t.tm_year + 1900 << "-" <<t.tm_mon << "-" << t.tm_mday << " " << t.tm_hour << ":" << t.tm_min;
+		r = oss.str();
+		return r;
+}
 
 void Match::SetHomeID(int t_id)
 {
@@ -135,6 +143,7 @@ void Match::ClearRecord()
 	away_penalties = 0;
 	status = not_beginning;
 }
+
 
 void Match::Update(time_t now)
 {
@@ -206,6 +215,8 @@ void Match::Update(time_t now)
 		winner = -1;
 }
 
+
+
 string Match::toString()
 {
 	string r;
@@ -218,14 +229,11 @@ string Match::toString()
 		oss << "点球：\t" << home_penalties << ":" << away_penalties << "\n";
 	}
 		string win;
-		std::ostringstream home,away;
-		home <<"主队事件:\n";
-		away <<"客队事件:\n";
 	if (status == completed)
 	{
-		if (winner == home_id)
+		if (winner == home_id&& winner != -1)
 			win += "胜者："+home_name;
-		else if (winner == away_id)
+		else if (winner == away_id&& winner != -1)
 			win += "胜者："+away_name;
 		else if (winner == -1)
 			win = "平局";
@@ -237,6 +245,9 @@ string Match::toString()
 	oss << "比赛结果:" << win<<"\n";
 	if (status != not_beginning) 
 	{
+		std::ostringstream home, away;
+		home << "主队事件:\n";
+		away << "客队事件:\n";
 		for (auto p_it = home_player_events.begin(); p_it != home_player_events.end(); ++p_it)
 		{
 			auto play = (*p_it).events;
@@ -271,9 +282,9 @@ string Match::toString()
 				away << (*p_it).p_id << ":" << eve << "\t时间" << (*e_it).time << "min\n";
 			}
 		}
+		oss << home.str();
+		oss << away.str();
 	}
-	oss << home.str();
-	oss << away.str();
 	r = oss.str();
 	return r;
 }
@@ -330,4 +341,9 @@ void Match::Event::SetTime(int time)
 void Match::Event::SetType(type event_type)
 {
 	this->event_type = event_type;
+}
+
+string GetStartTime()
+{
+	return string();
 }

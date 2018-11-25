@@ -47,6 +47,65 @@ Player ** DataBase::GetshoterRank()
 	return sort.MergeSort(player, &Player::GetGoal, 736);
 }
 
+string DataBase::GetTeamName(int t_id)
+{
+	return team[t_id].name;
+}
+
+queue<DataBase::eve_data> DataBase::GetEvents(int m_id, int &cnt, bool t_type)
+{
+	queue<DataBase::eve_data> r;
+	if (t_type)
+	{
+		for (auto p_it = match[m_id].home_player_events.begin(); p_it != match[m_id].home_player_events.end(); ++p_it)
+		{
+			auto play = (*p_it).events;
+			for (auto e_it = play.begin(); e_it != play.end(); ++e_it)
+			{
+				eve_data eve;
+				switch ((*e_it).event_type)
+				{
+					case goal:eve.type = "goal"; break;
+					case goal_penalty:eve.type = "penalty"; break;
+					case goal_own:eve.type = "own"; break;
+					case yellowcard:eve.type = "yellow card"; break;
+					case redcard:eve.type = "red card"; break;
+				}
+				int p_id = (*p_it).p_id;
+				eve.player = player[p_id].name;
+				eve.time = std::to_string((*e_it).time)+"min";
+				r.push(eve);
+				cnt++;
+			}
+		}
+	}
+	else 
+	{
+		for (auto p_it = match[m_id].away_player_events.begin(); p_it != match[m_id].away_player_events.end(); ++p_it)
+		{
+			auto play = (*p_it).events;
+			for (auto e_it = play.begin(); e_it != play.end(); ++e_it)
+			{
+				eve_data eve;
+				switch ((*e_it).event_type)
+				{
+					case goal:eve.type = "goal"; break;
+					case goal_penalty:eve.type = "penalty"; break;
+					case goal_own:eve.type = "own"; break;
+					case yellowcard:eve.type = "yellow card"; break;
+					case redcard:eve.type = "red card"; break;
+				}
+				int p_id = (*p_it).p_id;
+				eve.player = player[p_id].name;
+				eve.time = std::to_string((*e_it).time) + "min";
+				r.push(eve);
+				cnt++;
+			}
+		}
+	}
+	return r;
+}
+
 void DataBase::Update(time_t now)
 {
 	Reader reader;
@@ -312,10 +371,14 @@ void DataBase::Update(time_t now, Json::Value & root)
 		}
 		match[i].home_id = home;
 		match[i].away_id = away;
-		//if (home != -1)
+		if (home != -1)
 			match[i].home_name = team[home].name;
-		//if (away != -1)
+		else
+			match[i].home_name = "?";
+		if (away != -1)
 			match[i].away_name = team[away].name;
+		else
+			match[i].away_name = "?";
 		time_t match_start = match[i].start_time;
 		int time = match[i].time;
 		if (now < match_start)
@@ -335,8 +398,8 @@ void DataBase::Update(time_t now, Json::Value & root)
 				match[i].home_penalties = root[i]["home_penalties"].asInt();
 				match[i].away_penalties = root[i]["away_penalties"].asInt();
 			}
-			//if (team[home].name != root[i]["home_team_country"].asString() || team[away].name != root[i]["away_team_country"].asString())
-				//continue;
+			if (team[home].name != root[i]["home_team_country"].asString() || team[away].name != root[i]["away_team_country"].asString())
+				continue;
 			for (unsigned int j = 0; !root[i]["home_team_events"][j].empty(); j++)
 			{
 				int p_id = root[i]["home_team_events"][j]["id"].asInt();
@@ -566,6 +629,7 @@ int DataBase::GetDraw(int t_id)
 	}
 	return r;
 }
+
 
 Team ** DataBase::GetPointRank(int group)
 {

@@ -14,6 +14,7 @@ public:
 	friend class DataBase;
 	class Event
 	{
+		friend class DataBase;
 		friend class PlayerEvent;
 		friend class Match;
 	public:
@@ -27,6 +28,7 @@ public:
 	};
 	class PlayerEvent
 	{
+		friend class DataBase;
 		friend class Match;
 	private:
 		int p_id;
@@ -71,12 +73,17 @@ public:
 	int GetWinner();
 	int GetTeamID(bool t_type);
 	int GetScore(bool t_type);
+	int GetPenalties(bool t_type);
 	string GetStatus();
+	game_status  GetStatus(int n);
 	string GetStartTime();
+	string GetTeamName(bool t_type);
+	string GetWinnerName();
 	void SetHomeID(int t_id);
 	void SetAwayID(int t_id);
 	void ClearRecord();
 	void Update(time_t now);
+	bool HavePenalty();
 	string toString();
 };
 

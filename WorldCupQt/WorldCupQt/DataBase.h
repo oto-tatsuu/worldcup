@@ -10,6 +10,14 @@
 using std::queue;
 class DataBase
 {
+public:
+	struct eve_data 
+	{
+		friend class DataBase;
+		string player;
+		string type;
+		string time;
+	};
 	class KnockOutTree 
 	{
 		friend class DataBase;
@@ -26,7 +34,8 @@ public:
 	~DataBase();
 	//射手榜
 public:
-	Player**GetshoterRank();//
+	Player**GetshoterRank();
+	string GetTeamName(int t_id);
 private:
 	int Getshot(int p_id);//获取球员射门数
 public:
@@ -40,6 +49,7 @@ public:
 	int GetMatch(int t_id,int n);//获得某国家第n场比赛id
 	int GetHomeTeam(int m_id);
 	int GeVisitingTeam(int m_id);
+	queue<DataBase::eve_data> GetEvents(int m_id,int &cnt, bool t_type);
 	//UI接口
 public:
 	void Update(time_t now);

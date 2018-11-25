@@ -16,6 +16,11 @@ int Player::GetGoal_num()
 	return goal.shot;
 }
 
+int Player::GetPenalty_num()
+{
+	return goal.penalties;
+}
+
 
 
 Player::Goal Player::GetGoal()

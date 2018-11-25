@@ -17,16 +17,25 @@ using Json::Value;
 using Json::Reader;
 using Json::Writer;
 using std::string;
-//#ifdef QT_UI
-//int main(int argc, char *argv[])
-//{
-//	QApplication a(argc, argv);
-//	WorldCupQt w;
-//	w.show();
-//	return a.exec();
-//}
-//#endif
-//#ifndef QT_UI
+#define QT_UI
+#ifdef QT_UI
+#include<QSpinBox>
+#include<QSlider>
+#include<QStackedLayout>
+int main(int argc, char *argv[])
+{
+	QApplication app(argc, argv);
+	DataBase d;
+	string str="2018-7-14";
+	time_t time = d.strTotime(str);
+	d.Update(time);
+	WorldCupQt w(&d);
+	w.show();
+	return app.exec();
+}
+#endif
+
+#ifndef QT_UI
 int main(int argc, char *argv[])
 {
 	DataBase d;
@@ -124,4 +133,4 @@ int main(int argc, char *argv[])
 
 
 }
-//#endif
+#endif

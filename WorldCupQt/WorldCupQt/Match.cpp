@@ -4,7 +4,7 @@
 
 Match::Match():m_id(-1),home_id(-1),away_id(-1),home_score(0),away_score(0),status(not_beginning),winner(-1), home_penalties(0), away_penalties(0)
 {
-	time = 90 * 60;
+	time = 120 * 60;
 }
 
 
@@ -95,6 +95,14 @@ int Match::GetScore(bool t_type)
 		return away_score;
 }
 
+int Match::GetPenalties(bool t_type)
+{
+	if (t_type)
+		return home_penalties;
+	else
+		return away_penalties;
+}
+
 
 
 string Match::GetStatus()
@@ -108,6 +116,11 @@ string Match::GetStatus()
 	}
 	return "";
 }
+
+game_status Match::GetStatus(int n)
+{
+	return status;
+}
 #include<iomanip>
 string Match::GetStartTime()
 {
@@ -119,6 +132,27 @@ string Match::GetStartTime()
 		r = oss.str();
 		return r;
 }
+
+string Match::GetTeamName(bool t_type)
+{
+	if (t_type)
+		return home_name;
+	else
+		return away_name;
+}
+
+string Match::GetWinnerName()
+{
+	if (winner == home_id && winner != -1)
+		return home_name;
+	else if (winner == away_id && winner != -1)
+		return away_name;
+	else if (winner == -1)
+		return "Draw";
+}
+
+
+	
 
 void Match::SetHomeID(int t_id)
 {
@@ -215,7 +249,10 @@ void Match::Update(time_t now)
 		winner = -1;
 }
 
-
+bool Match::HavePenalty()
+{
+	return status == completed && m_id >= 48 && home_score == away_score;
+}
 
 string Match::toString()
 {

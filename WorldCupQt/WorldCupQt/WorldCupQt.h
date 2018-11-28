@@ -6,8 +6,11 @@
 #include <QTableWidget>
 #include <QTableWidgetItem>
 #include <QStackedLayout>
+#include<QTabWidget>
 #include<QSpinBox>
 #include<time.h>
+#include<QLineF>
+#include"QWKnockout.h"
 enum state {match,score,shooter,m_detail,m_out};
 class WorldCupQt : public QMainWindow
 {
@@ -21,10 +24,13 @@ public slots:
 	void show_shooter();
 	void print_shooter(int n = 736);
 	void search();
+	void detail(int data);
 private:
 	Ui::WorldCupQtClass ui;
 	QStackedLayout *body;
 	QWidget *err;
+	QTabWidget *tab_match;
+	QWKnockout*knockout;
 	QTableWidget*t_match;
 	QTableWidget*t_score;
 	QTableWidget*t_shooter;

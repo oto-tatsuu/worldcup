@@ -79,6 +79,16 @@ int Match::GetWinner()
 	return winner;
 }
 
+int Match::GetLoser()
+{
+	if (winner == -1)
+		return -1;
+	else if (winner == home_id)
+		return  away_id;
+	else
+		return home_id;
+}
+
 int Match::GetTeamID(bool t_type)
 {
 	if (t_type)

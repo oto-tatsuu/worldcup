@@ -57,9 +57,15 @@
     <ClCompile Include="Team.cpp">
       <Filter>Source Files\data</Filter>
     </ClCompile>
+    <ClCompile Include="QWKnockout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="WorldCupQt.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QWKnockout.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

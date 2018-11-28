@@ -24,6 +24,7 @@ public:
 	private:
 		int home_last_match;
 		int away_last_match;
+		int tree;
 		bool src_from;//true来自淘汰赛,false来自小组赛
 	public:
 		KnockOutTree();
@@ -46,6 +47,9 @@ public:
 	Team** GetPointRank(int group);//获得某小组积分排名
 	//比赛结果
 public:
+	int TreeToMatch(int n);
+	int Predict(int m_id,bool t_type);//m_id>=48&&m_id<56
+	bool TeamDetermined(int m_id, bool t_type);
 	int GetMatch(int t_id,int n);//获得某国家第n场比赛id
 	int GetHomeTeam(int m_id);
 	int GeVisitingTeam(int m_id);

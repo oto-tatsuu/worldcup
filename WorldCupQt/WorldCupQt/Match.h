@@ -71,6 +71,7 @@ public:
 	void AddEvent(int p_id, Event * event, bool team);
 	int GetID();
 	int GetWinner();
+	int GetLoser();
 	int GetTeamID(bool t_type);
 	int GetScore(bool t_type);
 	int GetPenalties(bool t_type);

@@ -3,6 +3,7 @@
 #include<QLabel>
 #include<QString>
 #include<QHBoxLayout>
+#include<QPainter>
 WorldCupQt::WorldCupQt(DataBase*data, QWidget *parent)
 	: data(data),QMainWindow(parent)
 {
@@ -29,12 +30,18 @@ WorldCupQt::WorldCupQt(DataBase*data, QWidget *parent)
 		l_err->addItem(hspacer2);
 		err->setLayout(l_err);
 	}
+	tab_match = new QTabWidget();
+	knockout=new QWKnockout();
+	knockout->SetData(data);
+	knockout->SetPadding(0.05,0.05,0.05,0.05);
 	t_match = new QTableWidget;
 	t_score = new QTableWidget;
 	t_shooter = new QTableWidget;
 	t_match_detail = new QTableWidget;
+	tab_match->addTab(t_match,"Info");
+	tab_match->addTab(knockout, "Knock out");
 	body->addWidget(err);
-	body->addWidget(t_match);
+	body->addWidget(tab_match);
 	body->addWidget(t_score);
 	body->addWidget(t_shooter);
 	body->addWidget(t_match_detail);
@@ -44,6 +51,7 @@ WorldCupQt::WorldCupQt(DataBase*data, QWidget *parent)
 	p_num->setValue(736);
 	void (QSpinBox:: *spinBoxSignal)(int) = &QSpinBox::valueChanged;
 	QObject::connect(p_num, spinBoxSignal,this,&WorldCupQt::print_shooter);
+	QObject::connect(knockout, &QWKnockout::bm_clicked, this, &WorldCupQt::detail);
 	p_num->setAlignment(Qt::AlignCenter);
 }
 #include<sstream>
@@ -55,62 +63,65 @@ void WorldCupQt:: show_match()
 	ui.B_match->setEnabled(false);
 	ui.B_score->setEnabled(true);
 	ui.B_shooter->setEnabled(true);
-	t_match->setColumnCount(6);
-	int row = 0;
-	for (int i = 0; i < 64; i++)
+	//比赛信息
 	{
-		row += 2;
-		t_match->setRowCount(row);
-		int home = data->match[i].GetTeamID(HOME);
-		int away = data->match[i].GetTeamID(AWAY);
-		int f_row = 2 * i;
-		t_match->setItem(f_row, 0, new QTableWidgetItem("Match NO."));
-		std::ostringstream s;
-		s << i + 1;
-		QTableWidgetItem*item = new QTableWidgetItem(QString::fromStdString(s.str()));
-		item->setTextAlignment(Qt::AlignCenter);
-		t_match->setItem(f_row, 1, item);
-		item = new QTableWidgetItem("Start Time");
-		item->setTextAlignment(Qt::AlignCenter);
-		t_match->setItem(f_row, 2, item);
-		item = new QTableWidgetItem(QString::fromStdString(data->match[i].GetStartTime()));
-		item->setTextAlignment(Qt::AlignCenter);
-		t_match->setItem(f_row, 3, item);
-		item = new QTableWidgetItem("Match Status");
-		item->setTextAlignment(Qt::AlignCenter);
-		t_match->setItem(f_row, 4, item);
-		item = new QTableWidgetItem(QString::fromStdString(data->match[i].GetStatus()));
-		item->setTextAlignment(Qt::AlignCenter);
-		t_match->setItem(f_row, 5, item);
-		f_row++;
-		item = new QTableWidgetItem("Home Team");
-		item->setTextAlignment(Qt::AlignCenter);
-		t_match->setItem(f_row, 0, item);
-		item = new QTableWidgetItem(QString::fromStdString(data->match[i].GetTeamName(HOME)));
-		item->setTextAlignment(Qt::AlignCenter);
-		t_match->setItem(f_row, 1, item);
-		item = new QTableWidgetItem("Away Team");
-		item->setTextAlignment(Qt::AlignCenter);
-		t_match->setItem(f_row, 2,item);
-		item = new QTableWidgetItem(QString::fromStdString(data->match[i].GetTeamName(AWAY)));
-		item->setTextAlignment(Qt::AlignCenter);
-		t_match->setItem(f_row, 3, item);
-		item = new QTableWidgetItem("Score");
-		item->setTextAlignment(Qt::AlignCenter);
-		t_match->setItem(f_row, 4, item);
-		s.str("");
-		s << data->match[i].GetScore(HOME);
-		s << ":";
-		s<<data->match[i].GetScore(AWAY);
-		item = new QTableWidgetItem(QString::fromStdString(s.str()));
-		item->setTextAlignment(Qt::AlignCenter);
-		t_match->setItem(f_row, 5, item);
+		t_match->setColumnCount(6);
+		int row = 0;
+		for (int i = 0; i < 64; i++)
+		{
+			row += 2;
+			t_match->setRowCount(row);
+			int home = data->match[i].GetTeamID(HOME);
+			int away = data->match[i].GetTeamID(AWAY);
+			int f_row = 2 * i;
+			t_match->setItem(f_row, 0, new QTableWidgetItem("Match NO."));
+			std::ostringstream s;
+			s << i + 1;
+			QTableWidgetItem*item = new QTableWidgetItem(QString::fromStdString(s.str()));
+			item->setTextAlignment(Qt::AlignCenter);
+			t_match->setItem(f_row, 1, item);
+			item = new QTableWidgetItem("Start Time");
+			item->setTextAlignment(Qt::AlignCenter);
+			t_match->setItem(f_row, 2, item);
+			item = new QTableWidgetItem(QString::fromStdString(data->match[i].GetStartTime()));
+			item->setTextAlignment(Qt::AlignCenter);
+			t_match->setItem(f_row, 3, item);
+			item = new QTableWidgetItem("Match Status");
+			item->setTextAlignment(Qt::AlignCenter);
+			t_match->setItem(f_row, 4, item);
+			item = new QTableWidgetItem(QString::fromStdString(data->match[i].GetStatus()));
+			item->setTextAlignment(Qt::AlignCenter);
+			t_match->setItem(f_row, 5, item);
+			f_row++;
+			item = new QTableWidgetItem("Home Team");
+			item->setTextAlignment(Qt::AlignCenter);
+			t_match->setItem(f_row, 0, item);
+			item = new QTableWidgetItem(QString::fromStdString(data->match[i].GetTeamName(HOME)));
+			item->setTextAlignment(Qt::AlignCenter);
+			t_match->setItem(f_row, 1, item);
+			item = new QTableWidgetItem("Away Team");
+			item->setTextAlignment(Qt::AlignCenter);
+			t_match->setItem(f_row, 2, item);
+			item = new QTableWidgetItem(QString::fromStdString(data->match[i].GetTeamName(AWAY)));
+			item->setTextAlignment(Qt::AlignCenter);
+			t_match->setItem(f_row, 3, item);
+			item = new QTableWidgetItem("Score");
+			item->setTextAlignment(Qt::AlignCenter);
+			t_match->setItem(f_row, 4, item);
+			s.str("");
+			s << data->match[i].GetScore(HOME);
+			s << ":";
+			s << data->match[i].GetScore(AWAY);
+			item = new QTableWidgetItem(QString::fromStdString(s.str()));
+			item->setTextAlignment(Qt::AlignCenter);
+			t_match->setItem(f_row, 5, item);
+		}
+		t_match->resizeColumnsToContents();//列宽自适应
+		t_match->verticalHeader()->setVisible(false);   //隐藏列表头  
+		t_match->horizontalHeader()->setVisible(false); //隐藏行表头
+		t_match->setEditTriggers(QAbstractItemView::NoEditTriggers);//禁止修改内容
+		body->setCurrentIndex(1);
 	}
-	t_match->resizeColumnsToContents();//列宽自适应
-	t_match->verticalHeader()->setVisible(false);   //隐藏列表头  
-	t_match->horizontalHeader()->setVisible(false); //隐藏行表头
-	t_match->setEditTriggers(QAbstractItemView::NoEditTriggers);//禁止修改内容
-	body->setCurrentIndex(1);
 }
 void WorldCupQt::time_change() 
 {
@@ -368,12 +379,20 @@ void WorldCupQt::search()
 	}
 }
 
+void WorldCupQt::detail(int data)
+{
+	show_match_detail(data);
+}
+
+
+
 void WorldCupQt::update(time_t t)
 {
 	data->Update(t);
 	if (!status[match])
 	{
 		show_match();
+		knockout->update();
 		return;
 	}
 	else if (!status[score])

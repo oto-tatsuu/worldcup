@@ -151,37 +151,52 @@ void DataBase::CreateKnockoutTree()
 	}
 	knockout_tree[0].home_last_match = 37;
 	knockout_tree[0].away_last_match = 39;
+	knockout_tree[0].tree = 16;
 	knockout_tree[1].home_last_match = 33;
 	knockout_tree[1].away_last_match = 35;
+	knockout_tree[1].tree = 17;
 	knockout_tree[2].home_last_match = 35;
+	knockout_tree[2].tree = 18;
 	knockout_tree[2].away_last_match = 33;
 	knockout_tree[3].home_last_match = 39;
 	knockout_tree[3].away_last_match = 37;
+	knockout_tree[3].tree = 19;
 	knockout_tree[4].home_last_match = 43;
 	knockout_tree[4].away_last_match = 41;
+	knockout_tree[4].tree = 20;
 	knockout_tree[5].home_last_match = 47;
 	knockout_tree[5].away_last_match = 45;
+	knockout_tree[5].tree = 21;
 	knockout_tree[6].home_last_match = 41;
 	knockout_tree[6].away_last_match = 43;
+	knockout_tree[6].tree = 22;
 	knockout_tree[7].home_last_match = 45;
 	knockout_tree[7].away_last_match = 47; 
+	knockout_tree[7].tree = 23;
 	knockout_tree[8].home_last_match = 49;
 	knockout_tree[8].away_last_match = 48;
+	knockout_tree[8].tree = 24;
 	knockout_tree[9].home_last_match = 52;
 	knockout_tree[9].away_last_match = 53;
+	knockout_tree[9].tree = 25;
 	knockout_tree[10].home_last_match = 54;
 	knockout_tree[10].away_last_match = 55;
+	knockout_tree[10].tree = 26;
 	knockout_tree[11].home_last_match = 50;
 	knockout_tree[11].away_last_match = 51;
+	knockout_tree[11].tree = 27;
 	knockout_tree[12].home_last_match = 56;
 	knockout_tree[12].away_last_match = 57;
+	knockout_tree[12].tree = 28;
 	knockout_tree[13].home_last_match = 59;
 	knockout_tree[13].away_last_match = 58;
+	knockout_tree[13].tree = 29;
 	knockout_tree[14].home_last_match = 60;
 	knockout_tree[14].away_last_match = 61;
+	knockout_tree[14].tree = 31;
 	knockout_tree[15].home_last_match = 60;
 	knockout_tree[15].away_last_match = 61;
-
+	knockout_tree[15].tree = 30;
 }
 
 void DataBase::UpdateTeam(int t_id)
@@ -635,6 +650,65 @@ Team ** DataBase::GetPointRank(int group)
 {
 	return sort.InsertSort(team + group * 4, &Team::GetJudgePoint, 4);
 }
+
+int DataBase::TreeToMatch(int n)
+{
+	if (n < 30)
+		return n + 32;
+	else if (n == 30)
+		return 63;
+	else if (n == 31)
+		return 62;
+	else
+		return - 1;
+}
+
+int DataBase::Predict(int m_id, bool t_type)
+{
+	int r=-1;
+	if (m_id >= 48 && m_id < 56) {
+		if (t_type == HOME)
+		{
+			int m=knockout_tree[m_id - 48].home_last_match;
+			int g_id = match[m].home_id / 4;
+			Team**t= sort.InsertSort(team + g_id * 4, &Team::GetJudgePoint, 4);
+			r = t[0]->t_id;
+			sort.DeleteArray(t,4);
+			return r;
+		}
+		else
+		{
+			int m = knockout_tree[m_id - 48].away_last_match;
+			int g_id = match[m].home_id / 4;
+			Team**t = sort.InsertSort(team + g_id * 4, &Team::GetJudgePoint, 4);
+			r = t[1]->t_id;
+			sort.DeleteArray(t, 4);
+			return r;
+		}
+	}
+	else
+		return r;
+}
+
+bool DataBase::TeamDetermined(int m_id, bool t_type)
+{
+	if (m_id >= 48 && m_id < 56) {
+		if (t_type)
+		{
+			int m = knockout_tree[m_id-48].home_last_match;
+			return match[m].status == completed;
+		}
+		else
+		{
+			int m = knockout_tree[m_id - 48].away_last_match;
+			if (m < 0 || m>63)
+				throw std::runtime_error("?");
+			return match[m].status == completed;
+		}
+	}
+	return false;
+}
+
 
 DataBase::KnockOutTree::KnockOutTree():src_from(true),home_last_match(-1),away_last_match(-1)
 {
